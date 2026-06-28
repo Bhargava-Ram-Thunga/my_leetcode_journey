@@ -1,0 +1,5 @@
+# LeetCode Journey
+.DS_Store
+__pycache__/
+*.pyc
+.problems_meta.json
