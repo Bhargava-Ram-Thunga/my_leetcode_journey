@@ -7,7 +7,7 @@
 
 const LEETCODE_HOST  = "leetcode.com";
 const SESSION_KEY    = "LEETCODE_SESSION";
-const OWNER_USERNAME = "bh4gav"; // ← YOUR LeetCode user_slug (from LEETCODE_SESSION JWT)
+const OWNER_USERNAME = "bhargava-ram-thunga"; // ← YOUR LeetCode userSlug (from LEETCODE_SESSION JWT)
 
 // ─── Decode the LEETCODE_SESSION JWT and extract username ────────────────────
 function decodeSessionUsername(sessionCookieValue) {

@@ -31,7 +31,7 @@ META_FILE  = REPO_DIR / ".problems_meta.json"
 SOL_DIR    = REPO_DIR / "solutions"
 
 USERNAME   = "bhargava-ram-thunga"    # display name / profile URL slug
-USER_SLUG  = "bh4gav"                 # LeetCode internal user_slug (from JWT) — used to verify cookie ownership
+USER_SLUG  = "bhargava-ram-thunga"    # LeetCode userSlug (from JWT) — used to verify cookie ownership
 GQL        = "https://leetcode.com/graphql"
 
 DIFF_EMOJI = {"Easy": "🟢", "Medium": "🟡", "Hard": "🔴"}
