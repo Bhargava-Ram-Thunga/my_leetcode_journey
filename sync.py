@@ -123,11 +123,58 @@ def run_export(cookie:str):
     print("  ✅  Export done")
 
 # ─── Meta ───────────────────────────────────────────────────────
-def load_meta() -> dict[str,dict]:
-    if not META_FILE.exists(): return {}
-    try:
-        return {p["folder"]:p for p in json.loads(META_FILE.read_text())}
-    except Exception: return {}
+def reconstruct_meta_from_solutions() -> dict[str, dict]:
+    """Rebuild metadata by reading existing problem.md files in solutions/.
+    Used as fallback when .problems_meta.json is missing (e.g. fresh GitHub Actions checkout)."""
+    if not SOL_DIR.exists():
+        return {}
+    meta = {}
+    for folder in sorted(SOL_DIR.iterdir()):
+        if not folder.is_dir():
+            continue
+        pm = folder / "problem.md"
+        if not pm.exists():
+            continue
+        text = pm.read_text(errors="replace")
+        # parse fields from problem.md header
+        fid_m    = re.search(r"^# (\S+)\. (.+)$", text, re.M)
+        diff_m   = re.search(r"\*\*Difficulty:\*\*.*?(Easy|Medium|Hard)", text)
+        tags_m   = re.search(r"\*\*Tags:\*\*\s*(.+)", text)
+        slug_m   = re.search(r"problems/([^/]+)/", text)
+        date_m   = re.search(r"\*\*Solved:\*\*\s*(\d{4}-\d{2}-\d{2})", text)
+
+        fid   = fid_m.group(1)  if fid_m   else folder.name.split("_")[0].lstrip("0") or "0"
+        title = fid_m.group(2)  if fid_m   else folder.name
+        diff  = diff_m.group(1) if diff_m  else "Unknown"
+        slug  = slug_m.group(1) if slug_m  else folder.name
+        date  = date_m.group(1) if date_m  else "Unknown"
+        tags  = [t.strip() for t in tags_m.group(1).split(",")] if tags_m else []
+        tags  = [t for t in tags if t and t != "N/A"]
+
+        # detect languages from solution files
+        langs = sorted({f.suffix.lstrip(".") for f in folder.iterdir()
+                        if f.is_file() and f.name.startswith("solution")})
+
+        num = int(re.match(r"(\d+)", folder.name).group(1)) if re.match(r"\d", folder.name) else 0
+        p = {"num": num, "fid": fid, "title": title, "slug": slug,
+             "difficulty": diff, "tags": tags, "langs": langs,
+             "folder": folder.name, "solved_on": date}
+        meta[folder.name] = p
+
+    print(f"  🔄  Reconstructed metadata for {len(meta)} existing problems from solutions/")
+    return meta
+
+
+def load_meta() -> dict[str, dict]:
+    if META_FILE.exists():
+        try:
+            data = json.loads(META_FILE.read_text())
+            if data:
+                return {p["folder"]: p for p in data}
+        except Exception:
+            pass
+    # Fallback: reconstruct from solutions/ directory
+    return reconstruct_meta_from_solutions()
 
 def save_meta(meta:dict[str,dict]):
     META_FILE.write_text(json.dumps(sorted(meta.values(), key=lambda x:x["num"]), indent=2))

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeetCode Sync</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      width: 360px;
+      min-height: 200px;
+      background: #0d1117;
+      color: #e6edf3;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 13px;
+    }
+
+    /* ── Header ───────────────────────────── */
+    .header {
+      background: linear-gradient(135deg, #1c1f26 0%, #161b22 100%);
+      padding: 16px 18px 14px;
+      border-bottom: 1px solid #30363d;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .header-icon {
+      width: 32px; height: 32px;
+      background: #FFA116;
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; font-weight: 900; color: #000;
+    }
+    .header-text h1 { font-size: 14px; font-weight: 700; color: #fff; }
+    .header-text p  { font-size: 11px; color: #8b949e; }
+
+    /* ── Status card ──────────────────────── */
+    .status-card {
+      margin: 14px;
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid #30363d;
+      background: #161b22;
+    }
+    .status-row {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 6px;
+    }
+    .status-row:last-child { margin-bottom: 0; }
+    .status-label { color: #8b949e; font-size: 11px; }
+    .status-value {
+      font-size: 11px; font-weight: 600;
+      padding: 2px 8px; border-radius: 12px;
+    }
+    .status-value.detected { background: #1f4a1f; color: #3fb950; }
+    .status-value.none     { background: #2d1f1f; color: #f85149; }
+    .status-value.synced   { background: #1a3a4a; color: #58a6ff; }
+    .status-value.pending  { background: #3a3a1f; color: #d29922; }
+
+    /* ── Buttons ──────────────────────────── */
+    .actions { padding: 0 14px 14px; display: flex; flex-direction: column; gap: 8px; }
+
+    .btn {
+      width: 100%; padding: 10px 14px;
+      border: none; border-radius: 8px;
+      font-size: 13px; font-weight: 600;
+      cursor: pointer; transition: all 0.15s ease;
+      display: flex; align-items: center; justify-content: center; gap: 6px;
+    }
+    .btn-primary {
+      background: #FFA116; color: #000;
+    }
+    .btn-primary:hover { background: #ffb347; transform: translateY(-1px); }
+    .btn-primary:disabled { background: #444; color: #888; cursor: not-allowed; transform: none; }
+
+    .btn-secondary {
+      background: #21262d; color: #e6edf3;
+      border: 1px solid #30363d;
+    }
+    .btn-secondary:hover { background: #30363d; }
+    .btn-secondary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .btn-green  { background: #238636; color: #fff; }
+    .btn-green:hover { background: #2ea043; }
+
+    /* ── Settings section ─────────────────── */
+    .settings {
+      border-top: 1px solid #30363d;
+      padding: 14px;
+    }
+    .settings-title {
+      font-size: 11px; font-weight: 700;
+      color: #8b949e; letter-spacing: 0.05em;
+      text-transform: uppercase; margin-bottom: 10px;
+    }
+    .field { margin-bottom: 8px; }
+    .field label { display: block; font-size: 11px; color: #8b949e; margin-bottom: 4px; }
+    .field input {
+      width: 100%; padding: 7px 10px;
+      background: #0d1117; border: 1px solid #30363d; border-radius: 6px;
+      color: #e6edf3; font-size: 12px; font-family: monospace;
+      outline: none; transition: border-color 0.15s;
+    }
+    .field input:focus { border-color: #FFA116; }
+
+    .toggle-row {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .toggle-label { font-size: 12px; color: #e6edf3; }
+    .toggle-sub   { font-size: 10px; color: #8b949e; }
+
+    /* Toggle switch */
+    .switch { position: relative; width: 38px; height: 22px; }
+    .switch input { opacity: 0; width: 0; height: 0; }
+    .slider {
+      position: absolute; cursor: pointer;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: #30363d; border-radius: 22px;
+      transition: 0.2s;
+    }
+    .slider::before {
+      content: ""; position: absolute;
+      width: 16px; height: 16px; border-radius: 50%;
+      background: #fff; bottom: 3px; left: 3px;
+      transition: 0.2s;
+    }
+    input:checked + .slider { background: #238636; }
+    input:checked + .slider::before { transform: translateX(16px); }
+
+    .save-btn {
+      width: 100%; padding: 8px;
+      background: #21262d; border: 1px solid #30363d; border-radius: 6px;
+      color: #58a6ff; font-size: 12px; cursor: pointer; font-weight: 600;
+      transition: background 0.15s;
+    }
+    .save-btn:hover { background: #30363d; }
+
+    /* ── Toast ────────────────────────────── */
+    #toast {
+      display: none; position: fixed;
+      bottom: 12px; left: 50%; transform: translateX(-50%);
+      background: #1f2937; border: 1px solid #30363d; border-radius: 8px;
+      padding: 8px 16px; font-size: 12px; white-space: nowrap;
+      color: #e6edf3; z-index: 100;
+    }
+    #toast.show { display: block; animation: fadeInOut 2.5s ease; }
+    @keyframes fadeInOut {
+      0%,100%{opacity:0;transform:translateX(-50%) translateY(6px)}
+      15%,85%{opacity:1;transform:translateX(-50%) translateY(0)}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-icon">LC</div>
+    <div class="header-text">
+      <h1>LeetCode → GitHub Sync</h1>
+      <p>Auto-syncs your cookie to GitHub Actions</p>
+    </div>
+  </div>
+
+  <!-- Status -->
+  <div class="status-card">
+    <div class="status-row">
+      <span class="status-label">Cookie Status</span>
+      <span class="status-value" id="cookie-status">Checking…</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label">Last Synced</span>
+      <span class="status-value" id="sync-status">Never</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label">Detected At</span>
+      <span class="status-value" id="detected-at" style="background:none;color:#8b949e">—</span>
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div class="actions">
+    <button class="btn btn-primary" id="btn-auto-sync" disabled>
+      ⚡ Auto-Update GitHub Secret
+    </button>
+    <button class="btn btn-secondary" id="btn-copy-cmd">
+      📋 Copy gh Command
+    </button>
+    <button class="btn btn-green" id="btn-trigger">
+      🔄 Trigger Sync Now
+    </button>
+  </div>
+
+  <!-- Settings -->
+  <div class="settings">
+    <div class="settings-title">⚙️ Configuration</div>
+
+    <div class="toggle-row">
+      <div>
+        <div class="toggle-label">Auto-sync on login</div>
+        <div class="toggle-sub">Updates GitHub secret when cookie changes</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="auto-sync-toggle" />
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="field">
+      <label>GitHub PAT (needs <code>secrets</code> permission)</label>
+      <input type="password" id="gh-pat" placeholder="ghp_xxxxxxxxxxxx" />
+    </div>
+    <div class="field">
+      <label>Repo (owner/name)</label>
+      <input type="text" id="gh-repo" placeholder="Bhargava-Ram-Thunga/my_leetcode_journey" />
+    </div>
+
+    <button class="save-btn" id="save-btn">💾 Save Settings</button>
+  </div>
+
+  <div id="toast"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

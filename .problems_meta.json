@@ -1,0 +1,8243 @@
+[
+  {
+    "num": 1,
+    "fid": "1",
+    "title": "Two Sum",
+    "slug": "two-sum",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "java",
+      "py"
+    ],
+    "folder": "0001_two-sum"
+  },
+  {
+    "num": 4,
+    "fid": "4",
+    "title": "Median of Two Sorted Arrays",
+    "slug": "median-of-two-sorted-arrays",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Divide and Conquer"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0004_median-of-two-sorted-arrays"
+  },
+  {
+    "num": 5,
+    "fid": "5",
+    "title": "Longest Palindromic Substring",
+    "slug": "longest-palindromic-substring",
+    "difficulty": "Medium",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0005_longest-palindromic-substring"
+  },
+  {
+    "num": 6,
+    "fid": "6",
+    "title": "Zigzag Conversion",
+    "slug": "zigzag-conversion",
+    "difficulty": "Medium",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0006_zigzag-conversion"
+  },
+  {
+    "num": 7,
+    "fid": "7",
+    "title": "Reverse Integer",
+    "slug": "reverse-integer",
+    "difficulty": "Medium",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0007_reverse-integer"
+  },
+  {
+    "num": 8,
+    "fid": "8",
+    "title": "String to Integer (atoi)",
+    "slug": "string-to-integer-atoi",
+    "difficulty": "Medium",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0008_string-to-integer-atoi"
+  },
+  {
+    "num": 9,
+    "fid": "9",
+    "title": "Palindrome Number",
+    "slug": "palindrome-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "js",
+      "py"
+    ],
+    "folder": "0009_palindrome-number"
+  },
+  {
+    "num": 11,
+    "fid": "11",
+    "title": "Container With Most Water",
+    "slug": "container-with-most-water",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Greedy"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0011_container-with-most-water"
+  },
+  {
+    "num": 12,
+    "fid": "12",
+    "title": "Integer to Roman",
+    "slug": "integer-to-roman",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0012_integer-to-roman"
+  },
+  {
+    "num": 13,
+    "fid": "13",
+    "title": "Roman to Integer",
+    "slug": "roman-to-integer",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0013_roman-to-integer"
+  },
+  {
+    "num": 14,
+    "fid": "14",
+    "title": "Longest Common Prefix",
+    "slug": "longest-common-prefix",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String",
+      "Trie"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0014_longest-common-prefix"
+  },
+  {
+    "num": 17,
+    "fid": "17",
+    "title": "Letter Combinations of a Phone Number",
+    "slug": "letter-combinations-of-a-phone-number",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Backtracking"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0017_letter-combinations-of-a-phone-number"
+  },
+  {
+    "num": 20,
+    "fid": "20",
+    "title": "Valid Parentheses",
+    "slug": "valid-parentheses",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Stack"
+    ],
+    "langs": [
+      "cpp",
+      "py"
+    ],
+    "folder": "0020_valid-parentheses"
+  },
+  {
+    "num": 26,
+    "fid": "26",
+    "title": "Remove Duplicates from Sorted Array",
+    "slug": "remove-duplicates-from-sorted-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0026_remove-duplicates-from-sorted-array"
+  },
+  {
+    "num": 27,
+    "fid": "27",
+    "title": "Remove Element",
+    "slug": "remove-element",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "0027_remove-element"
+  },
+  {
+    "num": 28,
+    "fid": "28",
+    "title": "Find the Index of the First Occurrence in a String",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "String Matching"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0028_find-the-index-of-the-first-occurrence-in-a-string"
+  },
+  {
+    "num": 29,
+    "fid": "29",
+    "title": "Divide Two Integers",
+    "slug": "divide-two-integers",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0029_divide-two-integers"
+  },
+  {
+    "num": 31,
+    "fid": "31",
+    "title": "Next Permutation",
+    "slug": "next-permutation",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ],
+    "langs": [
+      "cpp"
+    ],
+    "folder": "0031_next-permutation"
+  },
+  {
+    "num": 33,
+    "fid": "33",
+    "title": "Search in Rotated Sorted Array",
+    "slug": "search-in-rotated-sorted-array",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0033_search-in-rotated-sorted-array"
+  },
+  {
+    "num": 34,
+    "fid": "34",
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "slug": "find-first-and-last-position-of-element-in-sorted-array",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0034_find-first-and-last-position-of-element-in-sorted-array"
+  },
+  {
+    "num": 35,
+    "fid": "35",
+    "title": "Search Insert Position",
+    "slug": "search-insert-position",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0035_search-insert-position"
+  },
+  {
+    "num": 38,
+    "fid": "38",
+    "title": "Count and Say",
+    "slug": "count-and-say",
+    "difficulty": "Medium",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0038_count-and-say"
+  },
+  {
+    "num": 43,
+    "fid": "43",
+    "title": "Multiply Strings",
+    "slug": "multiply-strings",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0043_multiply-strings"
+  },
+  {
+    "num": 46,
+    "fid": "46",
+    "title": "Permutations",
+    "slug": "permutations",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0046_permutations"
+  },
+  {
+    "num": 47,
+    "fid": "47",
+    "title": "Permutations II",
+    "slug": "permutations-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0047_permutations-ii"
+  },
+  {
+    "num": 48,
+    "fid": "48",
+    "title": "Rotate Image",
+    "slug": "rotate-image",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Matrix"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0048_rotate-image"
+  },
+  {
+    "num": 49,
+    "fid": "49",
+    "title": "Group Anagrams",
+    "slug": "group-anagrams",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0049_group-anagrams"
+  },
+  {
+    "num": 50,
+    "fid": "50",
+    "title": "Pow(x, n)",
+    "slug": "powx-n",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Recursion"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0050_powx-n"
+  },
+  {
+    "num": 58,
+    "fid": "58",
+    "title": "Length of Last Word",
+    "slug": "length-of-last-word",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0058_length-of-last-word"
+  },
+  {
+    "num": 62,
+    "fid": "62",
+    "title": "Unique Paths",
+    "slug": "unique-paths",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Combinatorics"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0062_unique-paths"
+  },
+  {
+    "num": 66,
+    "fid": "66",
+    "title": "Plus One",
+    "slug": "plus-one",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0066_plus-one"
+  },
+  {
+    "num": 67,
+    "fid": "67",
+    "title": "Add Binary",
+    "slug": "add-binary",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String",
+      "Bit Manipulation",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0067_add-binary"
+  },
+  {
+    "num": 69,
+    "fid": "69",
+    "title": "Sqrt(x)",
+    "slug": "sqrtx",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Binary Search"
+    ],
+    "langs": [
+      "java",
+      "py"
+    ],
+    "folder": "0069_sqrtx"
+  },
+  {
+    "num": 70,
+    "fid": "70",
+    "title": "Climbing Stairs",
+    "slug": "climbing-stairs",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Memoization"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0070_climbing-stairs"
+  },
+  {
+    "num": 73,
+    "fid": "73",
+    "title": "Set Matrix Zeroes",
+    "slug": "set-matrix-zeroes",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0073_set-matrix-zeroes"
+  },
+  {
+    "num": 75,
+    "fid": "75",
+    "title": "Sort Colors",
+    "slug": "sort-colors",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "langs": [
+      "cpp",
+      "py"
+    ],
+    "folder": "0075_sort-colors"
+  },
+  {
+    "num": 77,
+    "fid": "77",
+    "title": "Combinations",
+    "slug": "combinations",
+    "difficulty": "Medium",
+    "tags": [
+      "Backtracking"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0077_combinations"
+  },
+  {
+    "num": 78,
+    "fid": "78",
+    "title": "Subsets",
+    "slug": "subsets",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0078_subsets"
+  },
+  {
+    "num": 80,
+    "fid": "80",
+    "title": "Remove Duplicates from Sorted Array II",
+    "slug": "remove-duplicates-from-sorted-array-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0080_remove-duplicates-from-sorted-array-ii"
+  },
+  {
+    "num": 88,
+    "fid": "88",
+    "title": "Merge Sorted Array",
+    "slug": "merge-sorted-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0088_merge-sorted-array"
+  },
+  {
+    "num": 90,
+    "fid": "90",
+    "title": "Subsets II",
+    "slug": "subsets-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0090_subsets-ii"
+  },
+  {
+    "num": 120,
+    "fid": "120",
+    "title": "Triangle",
+    "slug": "triangle",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "langs": [
+      "cpp"
+    ],
+    "folder": "0120_triangle"
+  },
+  {
+    "num": 121,
+    "fid": "121",
+    "title": "Best Time to Buy and Sell Stock",
+    "slug": "best-time-to-buy-and-sell-stock",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0121_best-time-to-buy-and-sell-stock"
+  },
+  {
+    "num": 125,
+    "fid": "125",
+    "title": "Valid Palindrome",
+    "slug": "valid-palindrome",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0125_valid-palindrome"
+  },
+  {
+    "num": 128,
+    "fid": "128",
+    "title": "Longest Consecutive Sequence",
+    "slug": "longest-consecutive-sequence",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Union-Find"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "0128_longest-consecutive-sequence"
+  },
+  {
+    "num": 136,
+    "fid": "136",
+    "title": "Single Number",
+    "slug": "single-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0136_single-number"
+  },
+  {
+    "num": 150,
+    "fid": "150",
+    "title": "Evaluate Reverse Polish Notation",
+    "slug": "evaluate-reverse-polish-notation",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Stack"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0150_evaluate-reverse-polish-notation"
+  },
+  {
+    "num": 151,
+    "fid": "151",
+    "title": "Reverse Words in a String",
+    "slug": "reverse-words-in-a-string",
+    "difficulty": "Medium",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0151_reverse-words-in-a-string"
+  },
+  {
+    "num": 153,
+    "fid": "153",
+    "title": "Find Minimum in Rotated Sorted Array",
+    "slug": "find-minimum-in-rotated-sorted-array",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0153_find-minimum-in-rotated-sorted-array"
+  },
+  {
+    "num": 155,
+    "fid": "155",
+    "title": "Min Stack",
+    "slug": "min-stack",
+    "difficulty": "Medium",
+    "tags": [
+      "Stack",
+      "Design"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0155_min-stack"
+  },
+  {
+    "num": 162,
+    "fid": "162",
+    "title": "Find Peak Element",
+    "slug": "find-peak-element",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0162_find-peak-element"
+  },
+  {
+    "num": 168,
+    "fid": "168",
+    "title": "Excel Sheet Column Title",
+    "slug": "excel-sheet-column-title",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0168_excel-sheet-column-title"
+  },
+  {
+    "num": 169,
+    "fid": "169",
+    "title": "Majority Element",
+    "slug": "majority-element",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Sorting",
+      "Counting"
+    ],
+    "langs": [
+      "cpp",
+      "java"
+    ],
+    "folder": "0169_majority-element"
+  },
+  {
+    "num": 171,
+    "fid": "171",
+    "title": "Excel Sheet Column Number",
+    "slug": "excel-sheet-column-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0171_excel-sheet-column-number"
+  },
+  {
+    "num": 172,
+    "fid": "172",
+    "title": "Factorial Trailing Zeroes",
+    "slug": "factorial-trailing-zeroes",
+    "difficulty": "Medium",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0172_factorial-trailing-zeroes"
+  },
+  {
+    "num": 189,
+    "fid": "189",
+    "title": "Rotate Array",
+    "slug": "rotate-array",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Two Pointers"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0189_rotate-array"
+  },
+  {
+    "num": 190,
+    "fid": "190",
+    "title": "Reverse Bits",
+    "slug": "reverse-bits",
+    "difficulty": "Easy",
+    "tags": [
+      "Divide and Conquer",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0190_reverse-bits"
+  },
+  {
+    "num": 191,
+    "fid": "191",
+    "title": "Number of 1 Bits",
+    "slug": "number-of-1-bits",
+    "difficulty": "Easy",
+    "tags": [
+      "Divide and Conquer",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0191_number-of-1-bits"
+  },
+  {
+    "num": 202,
+    "fid": "202",
+    "title": "Happy Number",
+    "slug": "happy-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "Two Pointers"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0202_happy-number"
+  },
+  {
+    "num": 204,
+    "fid": "204",
+    "title": "Count Primes",
+    "slug": "count-primes",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Enumeration",
+      "Number Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0204_count-primes"
+  },
+  {
+    "num": 205,
+    "fid": "205",
+    "title": "Isomorphic Strings",
+    "slug": "isomorphic-strings",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0205_isomorphic-strings"
+  },
+  {
+    "num": 215,
+    "fid": "215",
+    "title": "Kth Largest Element in an Array",
+    "slug": "kth-largest-element-in-an-array",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Quickselect"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0215_kth-largest-element-in-an-array"
+  },
+  {
+    "num": 217,
+    "fid": "217",
+    "title": "Contains Duplicate",
+    "slug": "contains-duplicate",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "langs": [
+      "java",
+      "py"
+    ],
+    "folder": "0217_contains-duplicate"
+  },
+  {
+    "num": 219,
+    "fid": "219",
+    "title": "Contains Duplicate II",
+    "slug": "contains-duplicate-ii",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "0219_contains-duplicate-ii"
+  },
+  {
+    "num": 228,
+    "fid": "228",
+    "title": "Summary Ranges",
+    "slug": "summary-ranges",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0228_summary-ranges"
+  },
+  {
+    "num": 229,
+    "fid": "229",
+    "title": "Majority Element II",
+    "slug": "majority-element-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Counting"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "0229_majority-element-ii"
+  },
+  {
+    "num": 231,
+    "fid": "231",
+    "title": "Power of Two",
+    "slug": "power-of-two",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Bit Manipulation",
+      "Recursion"
+    ],
+    "langs": [
+      "java",
+      "py"
+    ],
+    "folder": "0231_power-of-two"
+  },
+  {
+    "num": 242,
+    "fid": "242",
+    "title": "Valid Anagram",
+    "slug": "valid-anagram",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0242_valid-anagram"
+  },
+  {
+    "num": 258,
+    "fid": "258",
+    "title": "Add Digits",
+    "slug": "add-digits",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Simulation",
+      "Number Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0258_add-digits"
+  },
+  {
+    "num": 260,
+    "fid": "260",
+    "title": "Single Number III",
+    "slug": "single-number-iii",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0260_single-number-iii"
+  },
+  {
+    "num": 263,
+    "fid": "263",
+    "title": "Ugly Number",
+    "slug": "ugly-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0263_ugly-number"
+  },
+  {
+    "num": 268,
+    "fid": "268",
+    "title": "Missing Number",
+    "slug": "missing-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Binary Search",
+      "Bit Manipulation",
+      "Sorting"
+    ],
+    "langs": [
+      "java",
+      "py"
+    ],
+    "folder": "0268_missing-number"
+  },
+  {
+    "num": 283,
+    "fid": "283",
+    "title": "Move Zeroes",
+    "slug": "move-zeroes",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0283_move-zeroes"
+  },
+  {
+    "num": 290,
+    "fid": "290",
+    "title": "Word Pattern",
+    "slug": "word-pattern",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0290_word-pattern"
+  },
+  {
+    "num": 292,
+    "fid": "292",
+    "title": "Nim Game",
+    "slug": "nim-game",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Brainteaser",
+      "Game Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0292_nim-game"
+  },
+  {
+    "num": 299,
+    "fid": "299",
+    "title": "Bulls and Cows",
+    "slug": "bulls-and-cows",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0299_bulls-and-cows"
+  },
+  {
+    "num": 319,
+    "fid": "319",
+    "title": "Bulb Switcher",
+    "slug": "bulb-switcher",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Brainteaser"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0319_bulb-switcher"
+  },
+  {
+    "num": 326,
+    "fid": "326",
+    "title": "Power of Three",
+    "slug": "power-of-three",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Recursion"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0326_power-of-three"
+  },
+  {
+    "num": 338,
+    "fid": "338",
+    "title": "Counting Bits",
+    "slug": "counting-bits",
+    "difficulty": "Easy",
+    "tags": [
+      "Dynamic Programming",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0338_counting-bits"
+  },
+  {
+    "num": 342,
+    "fid": "342",
+    "title": "Power of Four",
+    "slug": "power-of-four",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Bit Manipulation",
+      "Recursion"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0342_power-of-four"
+  },
+  {
+    "num": 344,
+    "fid": "344",
+    "title": "Reverse String",
+    "slug": "reverse-string",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0344_reverse-string"
+  },
+  {
+    "num": 345,
+    "fid": "345",
+    "title": "Reverse Vowels of a String",
+    "slug": "reverse-vowels-of-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0345_reverse-vowels-of-a-string"
+  },
+  {
+    "num": 349,
+    "fid": "349",
+    "title": "Intersection of Two Arrays",
+    "slug": "intersection-of-two-arrays",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "0349_intersection-of-two-arrays"
+  },
+  {
+    "num": 350,
+    "fid": "350",
+    "title": "Intersection of Two Arrays II",
+    "slug": "intersection-of-two-arrays-ii",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0350_intersection-of-two-arrays-ii"
+  },
+  {
+    "num": 367,
+    "fid": "367",
+    "title": "Valid Perfect Square",
+    "slug": "valid-perfect-square",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Binary Search"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "0367_valid-perfect-square"
+  },
+  {
+    "num": 383,
+    "fid": "383",
+    "title": "Ransom Note",
+    "slug": "ransom-note",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "java",
+      "py"
+    ],
+    "folder": "0383_ransom-note"
+  },
+  {
+    "num": 387,
+    "fid": "387",
+    "title": "First Unique Character in a String",
+    "slug": "first-unique-character-in-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Queue",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0387_first-unique-character-in-a-string"
+  },
+  {
+    "num": 389,
+    "fid": "389",
+    "title": "Find the Difference",
+    "slug": "find-the-difference",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Bit Manipulation",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0389_find-the-difference"
+  },
+  {
+    "num": 392,
+    "fid": "392",
+    "title": "Is Subsequence",
+    "slug": "is-subsequence",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0392_is-subsequence"
+  },
+  {
+    "num": 405,
+    "fid": "405",
+    "title": "Convert a Number to Hexadecimal",
+    "slug": "convert-a-number-to-hexadecimal",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0405_convert-a-number-to-hexadecimal"
+  },
+  {
+    "num": 409,
+    "fid": "409",
+    "title": "Longest Palindrome",
+    "slug": "longest-palindrome",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0409_longest-palindrome"
+  },
+  {
+    "num": 412,
+    "fid": "412",
+    "title": "Fizz Buzz",
+    "slug": "fizz-buzz",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0412_fizz-buzz"
+  },
+  {
+    "num": 414,
+    "fid": "414",
+    "title": "Third Maximum Number",
+    "slug": "third-maximum-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0414_third-maximum-number"
+  },
+  {
+    "num": 415,
+    "fid": "415",
+    "title": "Add Strings",
+    "slug": "add-strings",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0415_add-strings"
+  },
+  {
+    "num": 434,
+    "fid": "434",
+    "title": "Number of Segments in a String",
+    "slug": "number-of-segments-in-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0434_number-of-segments-in-a-string"
+  },
+  {
+    "num": 441,
+    "fid": "441",
+    "title": "Arranging Coins",
+    "slug": "arranging-coins",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Binary Search"
+    ],
+    "langs": [
+      "cpp"
+    ],
+    "folder": "0441_arranging-coins"
+  },
+  {
+    "num": 442,
+    "fid": "442",
+    "title": "Find All Duplicates in an Array",
+    "slug": "find-all-duplicates-in-an-array",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "0442_find-all-duplicates-in-an-array"
+  },
+  {
+    "num": 448,
+    "fid": "448",
+    "title": "Find All Numbers Disappeared in an Array",
+    "slug": "find-all-numbers-disappeared-in-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "0448_find-all-numbers-disappeared-in-an-array"
+  },
+  {
+    "num": 451,
+    "fid": "451",
+    "title": "Sort Characters By Frequency",
+    "slug": "sort-characters-by-frequency",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting"
+    ],
+    "langs": [
+      "cpp"
+    ],
+    "folder": "0451_sort-characters-by-frequency"
+  },
+  {
+    "num": 454,
+    "fid": "454",
+    "title": "4Sum II",
+    "slug": "4sum-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "0454_4sum-ii"
+  },
+  {
+    "num": 459,
+    "fid": "459",
+    "title": "Repeated Substring Pattern",
+    "slug": "repeated-substring-pattern",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "String Matching"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0459_repeated-substring-pattern"
+  },
+  {
+    "num": 461,
+    "fid": "461",
+    "title": "Hamming Distance",
+    "slug": "hamming-distance",
+    "difficulty": "Easy",
+    "tags": [
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0461_hamming-distance"
+  },
+  {
+    "num": 476,
+    "fid": "476",
+    "title": "Number Complement",
+    "slug": "number-complement",
+    "difficulty": "Easy",
+    "tags": [
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0476_number-complement"
+  },
+  {
+    "num": 482,
+    "fid": "482",
+    "title": "License Key Formatting",
+    "slug": "license-key-formatting",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0482_license-key-formatting"
+  },
+  {
+    "num": 485,
+    "fid": "485",
+    "title": "Max Consecutive Ones",
+    "slug": "max-consecutive-ones",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0485_max-consecutive-ones"
+  },
+  {
+    "num": 492,
+    "fid": "492",
+    "title": "Construct the Rectangle",
+    "slug": "construct-the-rectangle",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0492_construct-the-rectangle"
+  },
+  {
+    "num": 495,
+    "fid": "495",
+    "title": "Teemo Attacking",
+    "slug": "teemo-attacking",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0495_teemo-attacking"
+  },
+  {
+    "num": 496,
+    "fid": "496",
+    "title": "Next Greater Element I",
+    "slug": "next-greater-element-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Stack",
+      "Monotonic Stack"
+    ],
+    "langs": [
+      "cpp",
+      "java"
+    ],
+    "folder": "0496_next-greater-element-i"
+  },
+  {
+    "num": 500,
+    "fid": "500",
+    "title": "Keyboard Row",
+    "slug": "keyboard-row",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0500_keyboard-row"
+  },
+  {
+    "num": 504,
+    "fid": "504",
+    "title": "Base 7",
+    "slug": "base-7",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0504_base-7"
+  },
+  {
+    "num": 506,
+    "fid": "506",
+    "title": "Relative Ranks",
+    "slug": "relative-ranks",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0506_relative-ranks"
+  },
+  {
+    "num": 507,
+    "fid": "507",
+    "title": "Perfect Number",
+    "slug": "perfect-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "cpp"
+    ],
+    "folder": "0507_perfect-number"
+  },
+  {
+    "num": 520,
+    "fid": "520",
+    "title": "Detect Capital",
+    "slug": "detect-capital",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0520_detect-capital"
+  },
+  {
+    "num": 521,
+    "fid": "521",
+    "title": "Longest Uncommon Subsequence I",
+    "slug": "longest-uncommon-subsequence-i",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0521_longest-uncommon-subsequence-i"
+  },
+  {
+    "num": 532,
+    "fid": "532",
+    "title": "K-diff Pairs in an Array",
+    "slug": "k-diff-pairs-in-an-array",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0532_k-diff-pairs-in-an-array"
+  },
+  {
+    "num": 541,
+    "fid": "541",
+    "title": "Reverse String II",
+    "slug": "reverse-string-ii",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0541_reverse-string-ii"
+  },
+  {
+    "num": 551,
+    "fid": "551",
+    "title": "Student Attendance Record I",
+    "slug": "student-attendance-record-i",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0551_student-attendance-record-i"
+  },
+  {
+    "num": 557,
+    "fid": "557",
+    "title": "Reverse Words in a String III",
+    "slug": "reverse-words-in-a-string-iii",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0557_reverse-words-in-a-string-iii"
+  },
+  {
+    "num": 560,
+    "fid": "560",
+    "title": "Subarray Sum Equals K",
+    "slug": "subarray-sum-equals-k",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "0560_subarray-sum-equals-k"
+  },
+  {
+    "num": 561,
+    "fid": "561",
+    "title": "Array Partition",
+    "slug": "array-partition",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Counting Sort"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0561_array-partition"
+  },
+  {
+    "num": 566,
+    "fid": "566",
+    "title": "Reshape the Matrix",
+    "slug": "reshape-the-matrix",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0566_reshape-the-matrix"
+  },
+  {
+    "num": 575,
+    "fid": "575",
+    "title": "Distribute Candies",
+    "slug": "distribute-candies",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0575_distribute-candies"
+  },
+  {
+    "num": 594,
+    "fid": "594",
+    "title": "Longest Harmonious Subsequence",
+    "slug": "longest-harmonious-subsequence",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Sorting",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0594_longest-harmonious-subsequence"
+  },
+  {
+    "num": 599,
+    "fid": "599",
+    "title": "Minimum Index Sum of Two Lists",
+    "slug": "minimum-index-sum-of-two-lists",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0599_minimum-index-sum-of-two-lists"
+  },
+  {
+    "num": 645,
+    "fid": "645",
+    "title": "Set Mismatch",
+    "slug": "set-mismatch",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Bit Manipulation",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0645_set-mismatch"
+  },
+  {
+    "num": 657,
+    "fid": "657",
+    "title": "Robot Return to Origin",
+    "slug": "robot-return-to-origin",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0657_robot-return-to-origin"
+  },
+  {
+    "num": 674,
+    "fid": "674",
+    "title": "Longest Continuous Increasing Subsequence",
+    "slug": "longest-continuous-increasing-subsequence",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0674_longest-continuous-increasing-subsequence"
+  },
+  {
+    "num": 682,
+    "fid": "682",
+    "title": "Baseball Game",
+    "slug": "baseball-game",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Stack",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0682_baseball-game"
+  },
+  {
+    "num": 693,
+    "fid": "693",
+    "title": "Binary Number with Alternating Bits",
+    "slug": "binary-number-with-alternating-bits",
+    "difficulty": "Easy",
+    "tags": [
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0693_binary-number-with-alternating-bits"
+  },
+  {
+    "num": 696,
+    "fid": "696",
+    "title": "Count Binary Substrings",
+    "slug": "count-binary-substrings",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0696_count-binary-substrings"
+  },
+  {
+    "num": 697,
+    "fid": "697",
+    "title": "Degree of an Array",
+    "slug": "degree-of-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0697_degree-of-an-array"
+  },
+  {
+    "num": 717,
+    "fid": "717",
+    "title": "1-bit and 2-bit Characters",
+    "slug": "1-bit-and-2-bit-characters",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0717_1-bit-and-2-bit-characters"
+  },
+  {
+    "num": 724,
+    "fid": "724",
+    "title": "Find Pivot Index",
+    "slug": "find-pivot-index",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0724_find-pivot-index"
+  },
+  {
+    "num": 728,
+    "fid": "728",
+    "title": "Self Dividing Numbers",
+    "slug": "self-dividing-numbers",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0728_self-dividing-numbers"
+  },
+  {
+    "num": 742,
+    "fid": "709",
+    "title": "To Lower Case",
+    "slug": "to-lower-case",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0742_to-lower-case"
+  },
+  {
+    "num": 745,
+    "fid": "744",
+    "title": "Find Smallest Letter Greater Than Target",
+    "slug": "find-smallest-letter-greater-than-target",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0745_find-smallest-letter-greater-than-target"
+  },
+  {
+    "num": 748,
+    "fid": "747",
+    "title": "Largest Number At Least Twice of Others",
+    "slug": "largest-number-at-least-twice-of-others",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0748_largest-number-at-least-twice-of-others"
+  },
+  {
+    "num": 749,
+    "fid": "748",
+    "title": "Shortest Completing Word",
+    "slug": "shortest-completing-word",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0749_shortest-completing-word"
+  },
+  {
+    "num": 767,
+    "fid": "762",
+    "title": "Prime Number of Set Bits in Binary Representation",
+    "slug": "prime-number-of-set-bits-in-binary-representation",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0767_prime-number-of-set-bits-in-binary-representation"
+  },
+  {
+    "num": 777,
+    "fid": "766",
+    "title": "Toeplitz Matrix",
+    "slug": "toeplitz-matrix",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Matrix"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0777_toeplitz-matrix"
+  },
+  {
+    "num": 782,
+    "fid": "771",
+    "title": "Jewels and Stones",
+    "slug": "jewels-and-stones",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0782_jewels-and-stones"
+  },
+  {
+    "num": 792,
+    "fid": "704",
+    "title": "Binary Search",
+    "slug": "binary-search",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "langs": [
+      "java",
+      "py"
+    ],
+    "folder": "0792_binary-search"
+  },
+  {
+    "num": 807,
+    "fid": "791",
+    "title": "Custom Sort String",
+    "slug": "custom-sort-string",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0807_custom-sort-string"
+  },
+  {
+    "num": 812,
+    "fid": "796",
+    "title": "Rotate String",
+    "slug": "rotate-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "String Matching"
+    ],
+    "langs": [
+      "cpp",
+      "py"
+    ],
+    "folder": "0812_rotate-string"
+  },
+  {
+    "num": 822,
+    "fid": "804",
+    "title": "Unique Morse Code Words",
+    "slug": "unique-morse-code-words",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0822_unique-morse-code-words"
+  },
+  {
+    "num": 824,
+    "fid": "806",
+    "title": "Number of Lines To Write String",
+    "slug": "number-of-lines-to-write-string",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0824_number-of-lines-to-write-string"
+  },
+  {
+    "num": 830,
+    "fid": "812",
+    "title": "Largest Triangle Area",
+    "slug": "largest-triangle-area",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Geometry"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0830_largest-triangle-area"
+  },
+  {
+    "num": 837,
+    "fid": "819",
+    "title": "Most Common Word",
+    "slug": "most-common-word",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0837_most-common-word"
+  },
+  {
+    "num": 851,
+    "fid": "824",
+    "title": "Goat Latin",
+    "slug": "goat-latin",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0851_goat-latin"
+  },
+  {
+    "num": 861,
+    "fid": "832",
+    "title": "Flipping an Image",
+    "slug": "flipping-an-image",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Bit Manipulation",
+      "Matrix",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0861_flipping-an-image"
+  },
+  {
+    "num": 874,
+    "fid": "844",
+    "title": "Backspace String Compare",
+    "slug": "backspace-string-compare",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Stack",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0874_backspace-string-compare"
+  },
+  {
+    "num": 890,
+    "fid": "860",
+    "title": "Lemonade Change",
+    "slug": "lemonade-change",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Greedy"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0890_lemonade-change"
+  },
+  {
+    "num": 898,
+    "fid": "867",
+    "title": "Transpose Matrix",
+    "slug": "transpose-matrix",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0898_transpose-matrix"
+  },
+  {
+    "num": 899,
+    "fid": "868",
+    "title": "Binary Gap",
+    "slug": "binary-gap",
+    "difficulty": "Easy",
+    "tags": [
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0899_binary-gap"
+  },
+  {
+    "num": 908,
+    "fid": "876",
+    "title": "Middle of the Linked List",
+    "slug": "middle-of-the-linked-list",
+    "difficulty": "Easy",
+    "tags": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "0908_middle-of-the-linked-list"
+  },
+  {
+    "num": 920,
+    "fid": "884",
+    "title": "Uncommon Words from Two Sentences",
+    "slug": "uncommon-words-from-two-sentences",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0920_uncommon-words-from-two-sentences"
+  },
+  {
+    "num": 924,
+    "fid": "888",
+    "title": "Fair Candy Swap",
+    "slug": "fair-candy-swap",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0924_fair-candy-swap"
+  },
+  {
+    "num": 932,
+    "fid": "896",
+    "title": "Monotonic Array",
+    "slug": "monotonic-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0932_monotonic-array"
+  },
+  {
+    "num": 941,
+    "fid": "905",
+    "title": "Sort Array By Parity",
+    "slug": "sort-array-by-parity",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0941_sort-array-by-parity"
+  },
+  {
+    "num": 944,
+    "fid": "908",
+    "title": "Smallest Range I",
+    "slug": "smallest-range-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0944_smallest-range-i"
+  },
+  {
+    "num": 948,
+    "fid": "912",
+    "title": "Sort an Array",
+    "slug": "sort-an-array",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Merge Sort",
+      "Bucket Sort",
+      "Radix Sort",
+      "Counting Sort"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0948_sort-an-array"
+  },
+  {
+    "num": 950,
+    "fid": "914",
+    "title": "X of a Kind in a Deck of Cards",
+    "slug": "x-of-a-kind-in-a-deck-of-cards",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Counting",
+      "Number Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0950_x-of-a-kind-in-a-deck-of-cards"
+  },
+  {
+    "num": 953,
+    "fid": "917",
+    "title": "Reverse Only Letters",
+    "slug": "reverse-only-letters",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0953_reverse-only-letters"
+  },
+  {
+    "num": 957,
+    "fid": "921",
+    "title": "Minimum Add to Make Parentheses Valid",
+    "slug": "minimum-add-to-make-parentheses-valid",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Stack",
+      "Greedy"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0957_minimum-add-to-make-parentheses-valid"
+  },
+  {
+    "num": 958,
+    "fid": "922",
+    "title": "Sort Array By Parity II",
+    "slug": "sort-array-by-parity-ii",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0958_sort-array-by-parity-ii"
+  },
+  {
+    "num": 961,
+    "fid": "925",
+    "title": "Long Pressed Name",
+    "slug": "long-pressed-name",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "langs": [
+      "cpp",
+      "py"
+    ],
+    "folder": "0961_long-pressed-name"
+  },
+  {
+    "num": 978,
+    "fid": "941",
+    "title": "Valid Mountain Array",
+    "slug": "valid-mountain-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0978_valid-mountain-array"
+  },
+  {
+    "num": 979,
+    "fid": "942",
+    "title": "DI String Match",
+    "slug": "di-string-match",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "String",
+      "Greedy"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0979_di-string-match"
+  },
+  {
+    "num": 981,
+    "fid": "944",
+    "title": "Delete Columns to Make Sorted",
+    "slug": "delete-columns-to-make-sorted",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0981_delete-columns-to-make-sorted"
+  },
+  {
+    "num": 990,
+    "fid": "953",
+    "title": "Verifying an Alien Dictionary",
+    "slug": "verifying-an-alien-dictionary",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "0990_verifying-an-alien-dictionary"
+  },
+  {
+    "num": 1001,
+    "fid": "961",
+    "title": "N-Repeated Element in Size 2N Array",
+    "slug": "n-repeated-element-in-size-2n-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "1001_n-repeated-element-in-size-2n-array"
+  },
+  {
+    "num": 1013,
+    "fid": "509",
+    "title": "Fibonacci Number",
+    "slug": "fibonacci-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Recursion",
+      "Memoization"
+    ],
+    "langs": [
+      "cpp",
+      "py"
+    ],
+    "folder": "1013_fibonacci-number"
+  },
+  {
+    "num": 1018,
+    "fid": "976",
+    "title": "Largest Perimeter Triangle",
+    "slug": "largest-perimeter-triangle",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Greedy",
+      "Sorting"
+    ],
+    "langs": [
+      "cpp",
+      "py"
+    ],
+    "folder": "1018_largest-perimeter-triangle"
+  },
+  {
+    "num": 1019,
+    "fid": "977",
+    "title": "Squares of a Sorted Array",
+    "slug": "squares-of-a-sorted-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1019_squares-of-a-sorted-array"
+  },
+  {
+    "num": 1031,
+    "fid": "989",
+    "title": "Add to Array-Form of Integer",
+    "slug": "add-to-array-form-of-integer",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1031_add-to-array-form-of-integer"
+  },
+  {
+    "num": 1041,
+    "fid": "999",
+    "title": "Available Captures for Rook",
+    "slug": "available-captures-for-rook",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1041_available-captures-for-rook"
+  },
+  {
+    "num": 1044,
+    "fid": "1002",
+    "title": "Find Common Characters",
+    "slug": "find-common-characters",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1044_find-common-characters"
+  },
+  {
+    "num": 1054,
+    "fid": "1009",
+    "title": "Complement of Base 10 Integer",
+    "slug": "complement-of-base-10-integer",
+    "difficulty": "Easy",
+    "tags": [
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1054_complement-of-base-10-integer"
+  },
+  {
+    "num": 1071,
+    "fid": "1018",
+    "title": "Binary Prefix Divisible By 5",
+    "slug": "binary-prefix-divisible-by-5",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1071_binary-prefix-divisible-by-5"
+  },
+  {
+    "num": 1078,
+    "fid": "1021",
+    "title": "Remove Outermost Parentheses",
+    "slug": "remove-outermost-parentheses",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Stack"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1078_remove-outermost-parentheses"
+  },
+  {
+    "num": 1086,
+    "fid": "1025",
+    "title": "Divisor Game",
+    "slug": "divisor-game",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Brainteaser",
+      "Game Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1086_divisor-game"
+  },
+  {
+    "num": 1112,
+    "fid": "1160",
+    "title": "Find Words That Can Be Formed by Characters",
+    "slug": "find-words-that-can-be-formed-by-characters",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1112_find-words-that-can-be-formed-by-characters"
+  },
+  {
+    "num": 1115,
+    "fid": "1037",
+    "title": "Valid Boomerang",
+    "slug": "valid-boomerang",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Geometry"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1115_valid-boomerang"
+  },
+  {
+    "num": 1128,
+    "fid": "1047",
+    "title": "Remove All Adjacent Duplicates In String",
+    "slug": "remove-all-adjacent-duplicates-in-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Stack"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1128_remove-all-adjacent-duplicates-in-string"
+  },
+  {
+    "num": 1137,
+    "fid": "1051",
+    "title": "Height Checker",
+    "slug": "height-checker",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Counting Sort"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1137_height-checker"
+  },
+  {
+    "num": 1146,
+    "fid": "1071",
+    "title": "Greatest Common Divisor of Strings",
+    "slug": "greatest-common-divisor-of-strings",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1146_greatest-common-divisor-of-strings"
+  },
+  {
+    "num": 1156,
+    "fid": "1078",
+    "title": "Occurrences After Bigram",
+    "slug": "occurrences-after-bigram",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1156_occurrences-after-bigram"
+  },
+  {
+    "num": 1168,
+    "fid": "1089",
+    "title": "Duplicate Zeros",
+    "slug": "duplicate-zeros",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1168_duplicate-zeros"
+  },
+  {
+    "num": 1205,
+    "fid": "1108",
+    "title": "Defanging an IP Address",
+    "slug": "defanging-an-ip-address",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1205_defanging-an-ip-address"
+  },
+  {
+    "num": 1210,
+    "fid": "1619",
+    "title": "Mean of Array After Removing Some Elements",
+    "slug": "mean-of-array-after-removing-some-elements",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1210_mean-of-array-after-removing-some-elements"
+  },
+  {
+    "num": 1217,
+    "fid": "1122",
+    "title": "Relative Sort Array",
+    "slug": "relative-sort-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Counting Sort"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1217_relative-sort-array"
+  },
+  {
+    "num": 1221,
+    "fid": "1287",
+    "title": "Element Appearing More Than 25% In Sorted Array",
+    "slug": "element-appearing-more-than-25-in-sorted-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1221_element-appearing-more-than-25-in-sorted-array"
+  },
+  {
+    "num": 1231,
+    "fid": "1299",
+    "title": "Replace Elements with Greatest Element on Right Side",
+    "slug": "replace-elements-with-greatest-element-on-right-side",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1231_replace-elements-with-greatest-element-on-right-side"
+  },
+  {
+    "num": 1236,
+    "fid": "1137",
+    "title": "N-th Tribonacci Number",
+    "slug": "n-th-tribonacci-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Memoization"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1236_n-th-tribonacci-number"
+  },
+  {
+    "num": 1256,
+    "fid": "1331",
+    "title": "Rank Transform of an Array",
+    "slug": "rank-transform-of-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1256_rank-transform-of-an-array"
+  },
+  {
+    "num": 1260,
+    "fid": "1154",
+    "title": "Day of the Year",
+    "slug": "day-of-the-year",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1260_day-of-the-year"
+  },
+  {
+    "num": 1264,
+    "fid": "1935",
+    "title": "Maximum Number of Words You Can Type",
+    "slug": "maximum-number-of-words-you-can-type",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1264_maximum-number-of-words-you-can-type"
+  },
+  {
+    "num": 1274,
+    "fid": "1360",
+    "title": "Number of Days Between Two Dates",
+    "slug": "number-of-days-between-two-dates",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1274_number-of-days-between-two-dates"
+  },
+  {
+    "num": 1283,
+    "fid": "1507",
+    "title": "Reformat Date",
+    "slug": "reformat-date",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1283_reformat-date"
+  },
+  {
+    "num": 1287,
+    "fid": "1184",
+    "title": "Distance Between Bus Stops",
+    "slug": "distance-between-bus-stops",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1287_distance-between-bus-stops"
+  },
+  {
+    "num": 1289,
+    "fid": "1185",
+    "title": "Day of the Week",
+    "slug": "day-of-the-week",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1289_day-of-the-week"
+  },
+  {
+    "num": 1293,
+    "fid": "1550",
+    "title": "Three Consecutive Odds",
+    "slug": "three-consecutive-odds",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1293_three-consecutive-odds"
+  },
+  {
+    "num": 1297,
+    "fid": "1189",
+    "title": "Maximum Number of Balloons",
+    "slug": "maximum-number-of-balloons",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1297_maximum-number-of-balloons"
+  },
+  {
+    "num": 1302,
+    "fid": "1957",
+    "title": "Delete Characters to Make Fancy String",
+    "slug": "delete-characters-to-make-fancy-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1302_delete-characters-to-make-fancy-string"
+  },
+  {
+    "num": 1306,
+    "fid": "1200",
+    "title": "Minimum Absolute Difference",
+    "slug": "minimum-absolute-difference",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1306_minimum-absolute-difference"
+  },
+  {
+    "num": 1319,
+    "fid": "1207",
+    "title": "Unique Number of Occurrences",
+    "slug": "unique-number-of-occurrences",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1319_unique-number-of-occurrences"
+  },
+  {
+    "num": 1341,
+    "fid": "1221",
+    "title": "Split a String in Balanced Strings",
+    "slug": "split-a-string-in-balanced-strings",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Greedy",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1341_split-a-string-in-balanced-strings"
+  },
+  {
+    "num": 1349,
+    "fid": "1232",
+    "title": "Check If It Is a Straight Line",
+    "slug": "check-if-it-is-a-straight-line",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Geometry"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1349_check-if-it-is-a-straight-line"
+  },
+  {
+    "num": 1363,
+    "fid": "2309",
+    "title": "Greatest English Letter in Upper and Lower Case",
+    "slug": "greatest-english-letter-in-upper-and-lower-case",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Enumeration"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1363_greatest-english-letter-in-upper-and-lower-case"
+  },
+  {
+    "num": 1382,
+    "fid": "2303",
+    "title": "Calculate Amount Paid in Taxes",
+    "slug": "calculate-amount-paid-in-taxes",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1382_calculate-amount-paid-in-taxes"
+  },
+  {
+    "num": 1392,
+    "fid": "2215",
+    "title": "Find the Difference of Two Arrays",
+    "slug": "find-the-difference-of-two-arrays",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "1392_find-the-difference-of-two-arrays"
+  },
+  {
+    "num": 1406,
+    "fid": "1281",
+    "title": "Subtract the Product and Sum of Digits of an Integer",
+    "slug": "subtract-the-product-and-sum-of-digits-of-an-integer",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1406_subtract-the-product-and-sum-of-digits-of-an-integer"
+  },
+  {
+    "num": 1421,
+    "fid": "1295",
+    "title": "Find Numbers with Even Number of Digits",
+    "slug": "find-numbers-with-even-number-of-digits",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1421_find-numbers-with-even-number-of-digits"
+  },
+  {
+    "num": 1426,
+    "fid": "1304",
+    "title": "Find N Unique Integers Sum up to Zero",
+    "slug": "find-n-unique-integers-sum-up-to-zero",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1426_find-n-unique-integers-sum-up-to-zero"
+  },
+  {
+    "num": 1430,
+    "fid": "2269",
+    "title": "Find the K-Beauty of a Number",
+    "slug": "find-the-k-beauty-of-a-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String",
+      "Sliding Window"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1430_find-the-k-beauty-of-a-number"
+  },
+  {
+    "num": 1434,
+    "fid": "1309",
+    "title": "Decrypt String from Alphabet to Integer Mapping",
+    "slug": "decrypt-string-from-alphabet-to-integer-mapping",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1434_decrypt-string-from-alphabet-to-integer-mapping"
+  },
+  {
+    "num": 1440,
+    "fid": "1317",
+    "title": "Convert Integer to the Sum of Two No-Zero Integers",
+    "slug": "convert-integer-to-the-sum-of-two-no-zero-integers",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1440_convert-integer-to-the-sum-of-two-no-zero-integers"
+  },
+  {
+    "num": 1444,
+    "fid": "1342",
+    "title": "Number of Steps to Reduce a Number to Zero",
+    "slug": "number-of-steps-to-reduce-a-number-to-zero",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "1444_number-of-steps-to-reduce-a-number-to-zero"
+  },
+  {
+    "num": 1448,
+    "fid": "1323",
+    "title": "Maximum 69 Number",
+    "slug": "maximum-69-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Greedy"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1448_maximum-69-number"
+  },
+  {
+    "num": 1454,
+    "fid": "1332",
+    "title": "Remove Palindromic Subsequences",
+    "slug": "remove-palindromic-subsequences",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1454_remove-palindromic-subsequences"
+  },
+  {
+    "num": 1458,
+    "fid": "1356",
+    "title": "Sort Integers by The Number of 1 Bits",
+    "slug": "sort-integers-by-the-number-of-1-bits",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Bit Manipulation",
+      "Sorting",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1458_sort-integers-by-the-number-of-1-bits"
+  },
+  {
+    "num": 1468,
+    "fid": "1346",
+    "title": "Check If N and Its Double Exist",
+    "slug": "check-if-n-and-its-double-exist",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting"
+    ],
+    "langs": [
+      "java",
+      "py"
+    ],
+    "folder": "1468_check-if-n-and-its-double-exist"
+  },
+  {
+    "num": 1469,
+    "fid": "1347",
+    "title": "Minimum Number of Steps to Make Two Strings Anagram",
+    "slug": "minimum-number-of-steps-to-make-two-strings-anagram",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1469_minimum-number-of-steps-to-make-two-strings-anagram"
+  },
+  {
+    "num": 1476,
+    "fid": "1351",
+    "title": "Count Negative Numbers in a Sorted Matrix",
+    "slug": "count-negative-numbers-in-a-sorted-matrix",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Matrix"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "1476_count-negative-numbers-in-a-sorted-matrix"
+  },
+  {
+    "num": 1482,
+    "fid": "1365",
+    "title": "How Many Numbers Are Smaller Than the Current Number",
+    "slug": "how-many-numbers-are-smaller-than-the-current-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Counting Sort"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "1482_how-many-numbers-are-smaller-than-the-current-number"
+  },
+  {
+    "num": 1486,
+    "fid": "1385",
+    "title": "Find the Distance Value Between Two Arrays",
+    "slug": "find-the-distance-value-between-two-arrays",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1486_find-the-distance-value-between-two-arrays"
+  },
+  {
+    "num": 1490,
+    "fid": "1374",
+    "title": "Generate a String With Characters That Have Odd Counts",
+    "slug": "generate-a-string-with-characters-that-have-odd-counts",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1490_generate-a-string-with-characters-that-have-odd-counts"
+  },
+  {
+    "num": 1496,
+    "fid": "1380",
+    "title": "Lucky Numbers in a Matrix",
+    "slug": "lucky-numbers-in-a-matrix",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Matrix"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1496_lucky-numbers-in-a-matrix"
+  },
+  {
+    "num": 1500,
+    "fid": "1399",
+    "title": "Count Largest Group",
+    "slug": "count-largest-group",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1500_count-largest-group"
+  },
+  {
+    "num": 1505,
+    "fid": "1389",
+    "title": "Create Target Array in the Given Order",
+    "slug": "create-target-array-in-the-given-order",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1505_create-target-array-in-the-given-order"
+  },
+  {
+    "num": 1510,
+    "fid": "1394",
+    "title": "Find Lucky Integer in an Array",
+    "slug": "find-lucky-integer-in-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1510_find-lucky-integer-in-an-array"
+  },
+  {
+    "num": 1524,
+    "fid": "1408",
+    "title": "String Matching in an Array",
+    "slug": "string-matching-in-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String",
+      "String Matching"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1524_string-matching-in-an-array"
+  },
+  {
+    "num": 1528,
+    "fid": "1431",
+    "title": "Kids With the Greatest Number of Candies",
+    "slug": "kids-with-the-greatest-number-of-candies",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1528_kids-with-the-greatest-number-of-candies"
+  },
+  {
+    "num": 1532,
+    "fid": "1417",
+    "title": "Reformat The String",
+    "slug": "reformat-the-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1532_reformat-the-string"
+  },
+  {
+    "num": 1537,
+    "fid": "1422",
+    "title": "Maximum Score After Splitting a String",
+    "slug": "maximum-score-after-splitting-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Prefix Sum"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1537_maximum-score-after-splitting-a-string"
+  },
+  {
+    "num": 1542,
+    "fid": "1446",
+    "title": "Consecutive Characters",
+    "slug": "consecutive-characters",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1542_consecutive-characters"
+  },
+  {
+    "num": 1547,
+    "fid": "1436",
+    "title": "Destination City",
+    "slug": "destination-city",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1547_destination-city"
+  },
+  {
+    "num": 1548,
+    "fid": "1437",
+    "title": "Check If All 1's Are at Least Length K Places Away",
+    "slug": "check-if-all-1s-are-at-least-length-k-places-away",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1548_check-if-all-1s-are-at-least-length-k-places-away"
+  },
+  {
+    "num": 1556,
+    "fid": "1460",
+    "title": "Make Two Arrays Equal by Reversing Subarrays",
+    "slug": "make-two-arrays-equal-by-reversing-subarrays",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1556_make-two-arrays-equal-by-reversing-subarrays"
+  },
+  {
+    "num": 1560,
+    "fid": "1450",
+    "title": "Number of Students Doing Homework at a Given Time",
+    "slug": "number-of-students-doing-homework-at-a-given-time",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1560_number-of-students-doing-homework-at-a-given-time"
+  },
+  {
+    "num": 1566,
+    "fid": "1455",
+    "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+    "slug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "String Matching"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1566_check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence"
+  },
+  {
+    "num": 1570,
+    "fid": "1475",
+    "title": "Final Prices With a Special Discount in a Shop",
+    "slug": "final-prices-with-a-special-discount-in-a-shop",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1570_final-prices-with-a-special-discount-in-a-shop"
+  },
+  {
+    "num": 1574,
+    "fid": "1464",
+    "title": "Maximum Product of Two Elements in an Array",
+    "slug": "maximum-product-of-two-elements-in-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1574_maximum-product-of-two-elements-in-an-array"
+  },
+  {
+    "num": 1580,
+    "fid": "1470",
+    "title": "Shuffle the Array",
+    "slug": "shuffle-the-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1580_shuffle-the-array"
+  },
+  {
+    "num": 1584,
+    "fid": "1491",
+    "title": "Average Salary Excluding the Minimum and Maximum Salary",
+    "slug": "average-salary-excluding-the-minimum-and-maximum-salary",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1584_average-salary-excluding-the-minimum-and-maximum-salary"
+  },
+  {
+    "num": 1585,
+    "fid": "1492",
+    "title": "The kth Factor of n",
+    "slug": "the-kth-factor-of-n",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Number Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1585_the-kth-factor-of-n"
+  },
+  {
+    "num": 1603,
+    "fid": "1480",
+    "title": "Running Sum of 1d Array",
+    "slug": "running-sum-of-1d-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "1603_running-sum-of-1d-array"
+  },
+  {
+    "num": 1619,
+    "fid": "1496",
+    "title": "Path Crossing",
+    "slug": "path-crossing",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1619_path-crossing"
+  },
+  {
+    "num": 1626,
+    "fid": "1502",
+    "title": "Can Make Arithmetic Progression From Sequence",
+    "slug": "can-make-arithmetic-progression-from-sequence",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1626_can-make-arithmetic-progression-from-sequence"
+  },
+  {
+    "num": 1630,
+    "fid": "1523",
+    "title": "Count Odd Numbers in an Interval Range",
+    "slug": "count-odd-numbers-in-an-interval-range",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1630_count-odd-numbers-in-an-interval-range"
+  },
+  {
+    "num": 1635,
+    "fid": "1512",
+    "title": "Number of Good Pairs",
+    "slug": "number-of-good-pairs",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Counting"
+    ],
+    "langs": [
+      "java",
+      "py"
+    ],
+    "folder": "1635_number-of-good-pairs"
+  },
+  {
+    "num": 1642,
+    "fid": "1518",
+    "title": "Water Bottles",
+    "slug": "water-bottles",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1642_water-bottles"
+  },
+  {
+    "num": 1646,
+    "fid": "1539",
+    "title": "Kth Missing Positive Number",
+    "slug": "kth-missing-positive-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1646_kth-missing-positive-number"
+  },
+  {
+    "num": 1651,
+    "fid": "1528",
+    "title": "Shuffle String",
+    "slug": "shuffle-string",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1651_shuffle-string"
+  },
+  {
+    "num": 1656,
+    "fid": "1534",
+    "title": "Count Good Triplets",
+    "slug": "count-good-triplets",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Enumeration"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1656_count-good-triplets"
+  },
+  {
+    "num": 1660,
+    "fid": "1556",
+    "title": "Thousand Separator",
+    "slug": "thousand-separator",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1660_thousand-separator"
+  },
+  {
+    "num": 1666,
+    "fid": "1544",
+    "title": "Make The String Great",
+    "slug": "make-the-string-great",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Stack"
+    ],
+    "langs": [
+      "cpp"
+    ],
+    "folder": "1666_make-the-string-great"
+  },
+  {
+    "num": 1677,
+    "fid": "1572",
+    "title": "Matrix Diagonal Sum",
+    "slug": "matrix-diagonal-sum",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Matrix"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1677_matrix-diagonal-sum"
+  },
+  {
+    "num": 1683,
+    "fid": "1561",
+    "title": "Maximum Number of Coins You Can Get",
+    "slug": "maximum-number-of-coins-you-can-get",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Greedy",
+      "Sorting",
+      "Game Theory"
+    ],
+    "langs": [
+      "js"
+    ],
+    "folder": "1683_maximum-number-of-coins-you-can-get"
+  },
+  {
+    "num": 1689,
+    "fid": "1566",
+    "title": "Detect Pattern of Length M Repeated K or More Times",
+    "slug": "detect-pattern-of-length-m-repeated-k-or-more-times",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Enumeration"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1689_detect-pattern-of-length-m-repeated-k-or-more-times"
+  },
+  {
+    "num": 1693,
+    "fid": "1588",
+    "title": "Sum of All Odd Length Subarrays",
+    "slug": "sum-of-all-odd-length-subarrays",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Prefix Sum"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1693_sum-of-all-odd-length-subarrays"
+  },
+  {
+    "num": 1714,
+    "fid": "1592",
+    "title": "Rearrange Spaces Between Words",
+    "slug": "rearrange-spaces-between-words",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1714_rearrange-spaces-between-words"
+  },
+  {
+    "num": 1720,
+    "fid": "1598",
+    "title": "Crawler Log Folder",
+    "slug": "crawler-log-folder",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String",
+      "Stack"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1720_crawler-log-folder"
+  },
+  {
+    "num": 1730,
+    "fid": "1608",
+    "title": "Special Array With X Elements Greater Than or Equal X",
+    "slug": "special-array-with-x-elements-greater-than-or-equal-x",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1730_special-array-with-x-elements-greater-than-or-equal-x"
+  },
+  {
+    "num": 1737,
+    "fid": "1614",
+    "title": "Maximum Nesting Depth of the Parentheses",
+    "slug": "maximum-nesting-depth-of-the-parentheses",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Stack"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1737_maximum-nesting-depth-of-the-parentheses"
+  },
+  {
+    "num": 1741,
+    "fid": "1636",
+    "title": "Sort Array by Increasing Frequency",
+    "slug": "sort-array-by-increasing-frequency",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1741_sort-array-by-increasing-frequency"
+  },
+  {
+    "num": 1746,
+    "fid": "1624",
+    "title": "Largest Substring Between Two Equal Characters",
+    "slug": "largest-substring-between-two-equal-characters",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1746_largest-substring-between-two-equal-characters"
+  },
+  {
+    "num": 1751,
+    "fid": "1629",
+    "title": "Slowest Key",
+    "slug": "slowest-key",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1751_slowest-key"
+  },
+  {
+    "num": 1764,
+    "fid": "1668",
+    "title": "Maximum Repeating Substring",
+    "slug": "maximum-repeating-substring",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "String Matching"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1764_maximum-repeating-substring"
+  },
+  {
+    "num": 1769,
+    "fid": "1646",
+    "title": "Get Maximum in Generated Array",
+    "slug": "get-maximum-in-generated-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1769_get-maximum-in-generated-array"
+  },
+  {
+    "num": 1781,
+    "fid": "1662",
+    "title": "Check If Two String Arrays are Equivalent",
+    "slug": "check-if-two-string-arrays-are-equivalent",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1781_check-if-two-string-arrays-are-equivalent"
+  },
+  {
+    "num": 1786,
+    "fid": "1684",
+    "title": "Count the Number of Consistent Strings",
+    "slug": "count-the-number-of-consistent-strings",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Bit Manipulation",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1786_count-the-number-of-consistent-strings"
+  },
+  {
+    "num": 1791,
+    "fid": "1672",
+    "title": "Richest Customer Wealth",
+    "slug": "richest-customer-wealth",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Matrix"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "1791_richest-customer-wealth"
+  },
+  {
+    "num": 1797,
+    "fid": "1678",
+    "title": "Goal Parser Interpretation",
+    "slug": "goal-parser-interpretation",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1797_goal-parser-interpretation"
+  },
+  {
+    "num": 1806,
+    "fid": "1688",
+    "title": "Count of Matches in Tournament",
+    "slug": "count-of-matches-in-tournament",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1806_count-of-matches-in-tournament"
+  },
+  {
+    "num": 1817,
+    "fid": "1716",
+    "title": "Calculate Money in Leetcode Bank",
+    "slug": "calculate-money-in-leetcode-bank",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1817_calculate-money-in-leetcode-bank"
+  },
+  {
+    "num": 1823,
+    "fid": "1704",
+    "title": "Determine if String Halves Are Alike",
+    "slug": "determine-if-string-halves-are-alike",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1823_determine-if-string-halves-are-alike"
+  },
+  {
+    "num": 1829,
+    "fid": "1710",
+    "title": "Maximum Units on a Truck",
+    "slug": "maximum-units-on-a-truck",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1829_maximum-units-on-a-truck"
+  },
+  {
+    "num": 1833,
+    "fid": "1732",
+    "title": "Find the Highest Altitude",
+    "slug": "find-the-highest-altitude",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1833_find-the-highest-altitude"
+  },
+  {
+    "num": 1843,
+    "fid": "1725",
+    "title": "Number Of Rectangles That Can Form The Largest Square",
+    "slug": "number-of-rectangles-that-can-form-the-largest-square",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1843_number-of-rectangles-that-can-form-the-largest-square"
+  },
+  {
+    "num": 1848,
+    "fid": "1748",
+    "title": "Sum of Unique Elements",
+    "slug": "sum-of-unique-elements",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "1848_sum-of-unique-elements"
+  },
+  {
+    "num": 1858,
+    "fid": "1736",
+    "title": "Latest Time by Replacing Hidden Digits",
+    "slug": "latest-time-by-replacing-hidden-digits",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Greedy"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1858_latest-time-by-replacing-hidden-digits"
+  },
+  {
+    "num": 1878,
+    "fid": "1752",
+    "title": "Check if Array Is Sorted and Rotated",
+    "slug": "check-if-array-is-sorted-and-rotated",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1878_check-if-array-is-sorted-and-rotated"
+  },
+  {
+    "num": 1884,
+    "fid": "1758",
+    "title": "Minimum Changes To Make Alternating Binary String",
+    "slug": "minimum-changes-to-make-alternating-binary-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1884_minimum-changes-to-make-alternating-binary-string"
+  },
+  {
+    "num": 1888,
+    "fid": "1779",
+    "title": "Find Nearest Point That Has the Same X or Y Coordinate",
+    "slug": "find-nearest-point-that-has-the-same-x-or-y-coordinate",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1888_find-nearest-point-that-has-the-same-x-or-y-coordinate"
+  },
+  {
+    "num": 1894,
+    "fid": "1768",
+    "title": "Merge Strings Alternately",
+    "slug": "merge-strings-alternately",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1894_merge-strings-alternately"
+  },
+  {
+    "num": 1899,
+    "fid": "1773",
+    "title": "Count Items Matching a Rule",
+    "slug": "count-items-matching-a-rule",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1899_count-items-matching-a-rule"
+  },
+  {
+    "num": 1904,
+    "fid": "1796",
+    "title": "Second Largest Digit in a String",
+    "slug": "second-largest-digit-in-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1904_second-largest-digit-in-a-string"
+  },
+  {
+    "num": 1910,
+    "fid": "1784",
+    "title": "Check if Binary String Has at Most One Segment of Ones",
+    "slug": "check-if-binary-string-has-at-most-one-segment-of-ones",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1910_check-if-binary-string-has-at-most-one-segment-of-ones"
+  },
+  {
+    "num": 1916,
+    "fid": "1791",
+    "title": "Find Center of Star Graph",
+    "slug": "find-center-of-star-graph",
+    "difficulty": "Easy",
+    "tags": [
+      "Graph Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1916_find-center-of-star-graph"
+  },
+  {
+    "num": 1920,
+    "fid": "1812",
+    "title": "Determine Color of a Chessboard Square",
+    "slug": "determine-color-of-a-chessboard-square",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1920_determine-color-of-a-chessboard-square"
+  },
+  {
+    "num": 1927,
+    "fid": "1800",
+    "title": "Maximum Ascending Subarray Sum",
+    "slug": "maximum-ascending-subarray-sum",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1927_maximum-ascending-subarray-sum"
+  },
+  {
+    "num": 1933,
+    "fid": "1805",
+    "title": "Number of Different Integers in a String",
+    "slug": "number-of-different-integers-in-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1933_number-of-different-integers-in-a-string"
+  },
+  {
+    "num": 1938,
+    "fid": "1827",
+    "title": "Minimum Operations to Make the Array Increasing",
+    "slug": "minimum-operations-to-make-the-array-increasing",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Greedy"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1938_minimum-operations-to-make-the-array-increasing"
+  },
+  {
+    "num": 1944,
+    "fid": "1816",
+    "title": "Truncate Sentence",
+    "slug": "truncate-sentence",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1944_truncate-sentence"
+  },
+  {
+    "num": 1950,
+    "fid": "1822",
+    "title": "Sign of the Product of an Array",
+    "slug": "sign-of-the-product-of-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1950_sign-of-the-product-of-an-array"
+  },
+  {
+    "num": 1954,
+    "fid": "1844",
+    "title": "Replace All Digits with Characters",
+    "slug": "replace-all-digits-with-characters",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1954_replace-all-digits-with-characters"
+  },
+  {
+    "num": 1960,
+    "fid": "1832",
+    "title": "Check if the Sentence Is Pangram",
+    "slug": "check-if-the-sentence-is-pangram",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1960_check-if-the-sentence-is-pangram"
+  },
+  {
+    "num": 1961,
+    "fid": "1833",
+    "title": "Maximum Ice Cream Bars",
+    "slug": "maximum-ice-cream-bars",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Counting Sort"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1961_maximum-ice-cream-bars"
+  },
+  {
+    "num": 1965,
+    "fid": "1837",
+    "title": "Sum of Digits in Base K",
+    "slug": "sum-of-digits-in-base-k",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1965_sum-of-digits-in-base-k"
+  },
+  {
+    "num": 1970,
+    "fid": "1859",
+    "title": "Sorting the Sentence",
+    "slug": "sorting-the-sentence",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1970_sorting-the-sentence"
+  },
+  {
+    "num": 1975,
+    "fid": "1848",
+    "title": "Minimum Distance to the Target Element",
+    "slug": "minimum-distance-to-the-target-element",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1975_minimum-distance-to-the-target-element"
+  },
+  {
+    "num": 1987,
+    "fid": "1876",
+    "title": "Substrings of Size Three with Distinct Characters",
+    "slug": "substrings-of-size-three-with-distinct-characters",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1987_substrings-of-size-three-with-distinct-characters"
+  },
+  {
+    "num": 1993,
+    "fid": "1863",
+    "title": "Sum of All Subset XOR Totals",
+    "slug": "sum-of-all-subset-xor-totals",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Backtracking",
+      "Bit Manipulation",
+      "Combinatorics",
+      "Enumeration"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1993_sum-of-all-subset-xor-totals"
+  },
+  {
+    "num": 1999,
+    "fid": "1869",
+    "title": "Longer Contiguous Segments of Ones than Zeros",
+    "slug": "longer-contiguous-segments-of-ones-than-zeros",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "1999_longer-contiguous-segments-of-ones-than-zeros"
+  },
+  {
+    "num": 2005,
+    "fid": "1893",
+    "title": "Check if All the Integers in a Range Are Covered",
+    "slug": "check-if-all-the-integers-in-a-range-are-covered",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2005_check-if-all-the-integers-in-a-range-are-covered"
+  },
+  {
+    "num": 2010,
+    "fid": "1880",
+    "title": "Check if Word Equals Summation of Two Words",
+    "slug": "check-if-word-equals-summation-of-two-words",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2010_check-if-word-equals-summation-of-two-words"
+  },
+  {
+    "num": 2020,
+    "fid": "1909",
+    "title": "Remove One Element to Make the Array Strictly Increasing",
+    "slug": "remove-one-element-to-make-the-array-strictly-increasing",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2020_remove-one-element-to-make-the-array-strictly-increasing"
+  },
+  {
+    "num": 2021,
+    "fid": "1910",
+    "title": "Remove All Occurrences of a Substring",
+    "slug": "remove-all-occurrences-of-a-substring",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Stack",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2021_remove-all-occurrences-of-a-substring"
+  },
+  {
+    "num": 2032,
+    "fid": "1903",
+    "title": "Largest Odd Number in String",
+    "slug": "largest-odd-number-in-string",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String",
+      "Greedy"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2032_largest-odd-number-in-string"
+  },
+  {
+    "num": 2037,
+    "fid": "1925",
+    "title": "Count Square Sum Triples",
+    "slug": "count-square-sum-triples",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Enumeration"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2037_count-square-sum-triples"
+  },
+  {
+    "num": 2042,
+    "fid": "1913",
+    "title": "Maximum Product Difference Between Two Pairs",
+    "slug": "maximum-product-difference-between-two-pairs",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2042_maximum-product-difference-between-two-pairs"
+  },
+  {
+    "num": 2048,
+    "fid": "1920",
+    "title": "Build Array from Permutation",
+    "slug": "build-array-from-permutation",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2048_build-array-from-permutation"
+  },
+  {
+    "num": 2053,
+    "fid": "1941",
+    "title": "Check if All Characters Have Equal Number of Occurrences",
+    "slug": "check-if-all-characters-have-equal-number-of-occurrences",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2053_check-if-all-characters-have-equal-number-of-occurrences"
+  },
+  {
+    "num": 2058,
+    "fid": "1929",
+    "title": "Concatenation of Array",
+    "slug": "concatenation-of-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2058_concatenation-of-array"
+  },
+  {
+    "num": 2076,
+    "fid": "1945",
+    "title": "Sum of Digits of String After Convert",
+    "slug": "sum-of-digits-of-string-after-convert",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2076_sum-of-digits-of-string-after-convert"
+  },
+  {
+    "num": 2083,
+    "fid": "1952",
+    "title": "Three Divisors",
+    "slug": "three-divisors",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Enumeration",
+      "Number Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2083_three-divisors"
+  },
+  {
+    "num": 2088,
+    "fid": "1974",
+    "title": "Minimum Time to Type Word Using Special Typewriter",
+    "slug": "minimum-time-to-type-word-using-special-typewriter",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Greedy"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2088_minimum-time-to-type-word-using-special-typewriter"
+  },
+  {
+    "num": 2093,
+    "fid": "1961",
+    "title": "Check If String Is a Prefix of Array",
+    "slug": "check-if-string-is-a-prefix-of-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2093_check-if-string-is-a-prefix-of-array"
+  },
+  {
+    "num": 2099,
+    "fid": "1967",
+    "title": "Number of Strings That Appear as Substrings in Word",
+    "slug": "number-of-strings-that-appear-as-substrings-in-word",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2099_number-of-strings-that-appear-as-substrings-in-word"
+  },
+  {
+    "num": 2102,
+    "fid": "1991",
+    "title": "Find the Middle Index in Array",
+    "slug": "find-the-middle-index-in-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2102_find-the-middle-index-in-array"
+  },
+  {
+    "num": 2106,
+    "fid": "1979",
+    "title": "Find Greatest Common Divisor of Array",
+    "slug": "find-greatest-common-divisor-of-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Number Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2106_find-greatest-common-divisor-of-array"
+  },
+  {
+    "num": 2107,
+    "fid": "1980",
+    "title": "Find Unique Binary String",
+    "slug": "find-unique-binary-string",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Backtracking"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2107_find-unique-binary-string"
+  },
+  {
+    "num": 2116,
+    "fid": "2006",
+    "title": "Count Number of Pairs With Absolute Difference K",
+    "slug": "count-number-of-pairs-with-absolute-difference-k",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "2116_count-number-of-pairs-with-absolute-difference-k"
+  },
+  {
+    "num": 2122,
+    "fid": "1995",
+    "title": "Count Special Quadruplets",
+    "slug": "count-special-quadruplets",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Enumeration"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2122_count-special-quadruplets"
+  },
+  {
+    "num": 2128,
+    "fid": "2000",
+    "title": "Reverse Prefix of Word",
+    "slug": "reverse-prefix-of-word",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Stack"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2128_reverse-prefix-of-word"
+  },
+  {
+    "num": 2132,
+    "fid": "2022",
+    "title": "Convert 1D Array Into 2D Array",
+    "slug": "convert-1d-array-into-2d-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2132_convert-1d-array-into-2d-array"
+  },
+  {
+    "num": 2137,
+    "fid": "2011",
+    "title": "Final Value of Variable After Performing Operations",
+    "slug": "final-value-of-variable-after-performing-operations",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2137_final-value-of-variable-after-performing-operations"
+  },
+  {
+    "num": 2144,
+    "fid": "2016",
+    "title": "Maximum Difference Between Increasing Elements",
+    "slug": "maximum-difference-between-increasing-elements",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2144_maximum-difference-between-increasing-elements"
+  },
+  {
+    "num": 2154,
+    "fid": "2027",
+    "title": "Minimum Moves to Convert String",
+    "slug": "minimum-moves-to-convert-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Greedy"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2154_minimum-moves-to-convert-string"
+  },
+  {
+    "num": 2159,
+    "fid": "2032",
+    "title": "Two Out of Three",
+    "slug": "two-out-of-three",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2159_two-out-of-three"
+  },
+  {
+    "num": 2163,
+    "fid": "2053",
+    "title": "Kth Distinct String in an Array",
+    "slug": "kth-distinct-string-in-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2163_kth-distinct-string-in-an-array"
+  },
+  {
+    "num": 2168,
+    "fid": "2042",
+    "title": "Check if Numbers Are Ascending in a Sentence",
+    "slug": "check-if-numbers-are-ascending-in-a-sentence",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2168_check-if-numbers-are-ascending-in-a-sentence"
+  },
+  {
+    "num": 2177,
+    "fid": "2068",
+    "title": "Check Whether Two Strings are Almost Equivalent",
+    "slug": "check-whether-two-strings-are-almost-equivalent",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2177_check-whether-two-strings-are-almost-equivalent"
+  },
+  {
+    "num": 2181,
+    "fid": "2057",
+    "title": "Smallest Index With Equal Value",
+    "slug": "smallest-index-with-equal-value",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2181_smallest-index-with-equal-value"
+  },
+  {
+    "num": 2186,
+    "fid": "2062",
+    "title": "Count Vowel Substrings of a String",
+    "slug": "count-vowel-substrings-of-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2186_count-vowel-substrings-of-a-string"
+  },
+  {
+    "num": 2190,
+    "fid": "2085",
+    "title": "Count Common Words With One Occurrence",
+    "slug": "count-common-words-with-one-occurrence",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2190_count-common-words-with-one-occurrence"
+  },
+  {
+    "num": 2210,
+    "fid": "2089",
+    "title": "Find Target Indices After Sorting Array",
+    "slug": "find-target-indices-after-sorting-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Sorting"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "2210_find-target-indices-after-sorting-array"
+  },
+  {
+    "num": 2215,
+    "fid": "2094",
+    "title": "Finding 3-Digit Even Numbers",
+    "slug": "finding-3-digit-even-numbers",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Recursion",
+      "Sorting",
+      "Enumeration"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2215_finding-3-digit-even-numbers"
+  },
+  {
+    "num": 2219,
+    "fid": "2114",
+    "title": "Maximum Number of Words Found in Sentences",
+    "slug": "maximum-number-of-words-found-in-sentences",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2219_maximum-number-of-words-found-in-sentences"
+  },
+  {
+    "num": 2226,
+    "fid": "2103",
+    "title": "Rings and Rods",
+    "slug": "rings-and-rods",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2226_rings-and-rods"
+  },
+  {
+    "num": 2231,
+    "fid": "2108",
+    "title": "Find First Palindromic String in the Array",
+    "slug": "find-first-palindromic-string-in-the-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2231_find-first-palindromic-string-in-the-array"
+  },
+  {
+    "num": 2235,
+    "fid": "2129",
+    "title": "Capitalize the Title",
+    "slug": "capitalize-the-title",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2235_capitalize-the-title"
+  },
+  {
+    "num": 2238,
+    "fid": "2119",
+    "title": "A Number After a Double Reversal",
+    "slug": "a-number-after-a-double-reversal",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2238_a-number-after-a-double-reversal"
+  },
+  {
+    "num": 2243,
+    "fid": "2124",
+    "title": "Check if All A's Appears Before All B's",
+    "slug": "check-if-all-as-appears-before-all-bs",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2243_check-if-all-as-appears-before-all-bs"
+  },
+  {
+    "num": 2244,
+    "fid": "2125",
+    "title": "Number of Laser Beams in a Bank",
+    "slug": "number-of-laser-beams-in-a-bank",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "String",
+      "Matrix"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2244_number-of-laser-beams-in-a-bank"
+  },
+  {
+    "num": 2254,
+    "fid": "2133",
+    "title": "Check if Every Row and Column Contains All Numbers",
+    "slug": "check-if-every-row-and-column-contains-all-numbers",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2254_check-if-every-row-and-column-contains-all-numbers"
+  },
+  {
+    "num": 2260,
+    "fid": "2138",
+    "title": "Divide a String Into Groups of Size k",
+    "slug": "divide-a-string-into-groups-of-size-k",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2260_divide-a-string-into-groups-of-size-k"
+  },
+  {
+    "num": 2264,
+    "fid": "2160",
+    "title": "Minimum Sum of Four Digit Number After Splitting Digits",
+    "slug": "minimum-sum-of-four-digit-number-after-splitting-digits",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Greedy",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2264_minimum-sum-of-four-digit-number-after-splitting-digits"
+  },
+  {
+    "num": 2265,
+    "fid": "2161",
+    "title": "Partition Array According to Given Pivot",
+    "slug": "partition-array-according-to-given-pivot",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2265_partition-array-according-to-given-pivot"
+  },
+  {
+    "num": 2269,
+    "fid": "2148",
+    "title": "Count Elements With Strictly Smaller and Greater Elements ",
+    "slug": "count-elements-with-strictly-smaller-and-greater-elements",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2269_count-elements-with-strictly-smaller-and-greater-elements"
+  },
+  {
+    "num": 2274,
+    "fid": "2154",
+    "title": "Keep Multiplying Found Values by Two",
+    "slug": "keep-multiplying-found-values-by-two",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2274_keep-multiplying-found-values-by-two"
+  },
+  {
+    "num": 2277,
+    "fid": "2176",
+    "title": "Count Equal and Divisible Pairs in an Array",
+    "slug": "count-equal-and-divisible-pairs-in-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2277_count-equal-and-divisible-pairs-in-an-array"
+  },
+  {
+    "num": 2283,
+    "fid": "2164",
+    "title": "Sort Even and Odd Indices Independently",
+    "slug": "sort-even-and-odd-indices-independently",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2283_sort-even-and-odd-indices-independently"
+  },
+  {
+    "num": 2288,
+    "fid": "2169",
+    "title": "Count Operations to Obtain Zero",
+    "slug": "count-operations-to-obtain-zero",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2288_count-operations-to-obtain-zero"
+  },
+  {
+    "num": 2292,
+    "fid": "2185",
+    "title": "Counting Words With a Given Prefix",
+    "slug": "counting-words-with-a-given-prefix",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String",
+      "String Matching"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2292_counting-words-with-a-given-prefix"
+  },
+  {
+    "num": 2298,
+    "fid": "2180",
+    "title": "Count Integers With Even Digit Sum",
+    "slug": "count-integers-with-even-digit-sum",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2298_count-integers-with-even-digit-sum"
+  },
+  {
+    "num": 2304,
+    "fid": "2194",
+    "title": "Cells in a Range on an Excel Sheet",
+    "slug": "cells-in-a-range-on-an-excel-sheet",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2304_cells-in-a-range-on-an-excel-sheet"
+  },
+  {
+    "num": 2308,
+    "fid": "2206",
+    "title": "Divide Array Into Equal Pairs",
+    "slug": "divide-array-into-equal-pairs",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Bit Manipulation",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2308_divide-array-into-equal-pairs"
+  },
+  {
+    "num": 2323,
+    "fid": "2220",
+    "title": "Minimum Bit Flips to Convert Number",
+    "slug": "minimum-bit-flips-to-convert-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2323_minimum-bit-flips-to-convert-number"
+  },
+  {
+    "num": 2331,
+    "fid": "2248",
+    "title": "Intersection of Multiple Arrays",
+    "slug": "intersection-of-multiple-arrays",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2331_intersection-of-multiple-arrays"
+  },
+  {
+    "num": 2337,
+    "fid": "2259",
+    "title": "Remove Digit From Number to Maximize Result",
+    "slug": "remove-digit-from-number-to-maximize-result",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Greedy",
+      "Enumeration"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2337_remove-digit-from-number-to-maximize-result"
+  },
+  {
+    "num": 2341,
+    "fid": "2255",
+    "title": "Count Prefixes of a Given String",
+    "slug": "count-prefixes-of-a-given-string",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2341_count-prefixes-of-a-given-string"
+  },
+  {
+    "num": 2346,
+    "fid": "2264",
+    "title": "Largest 3-Same-Digit Number in String",
+    "slug": "largest-3-same-digit-number-in-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2346_largest-3-same-digit-number-in-string"
+  },
+  {
+    "num": 2350,
+    "fid": "2239",
+    "title": "Find Closest Number to Zero",
+    "slug": "find-closest-number-to-zero",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2350_find-closest-number-to-zero"
+  },
+  {
+    "num": 2361,
+    "fid": "2243",
+    "title": "Calculate Digit Sum of a String",
+    "slug": "calculate-digit-sum-of-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2361_calculate-digit-sum-of-a-string"
+  },
+  {
+    "num": 2365,
+    "fid": "2278",
+    "title": "Percentage of Letter in String",
+    "slug": "percentage-of-letter-in-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2365_percentage-of-letter-in-string"
+  },
+  {
+    "num": 2372,
+    "fid": "2287",
+    "title": "Rearrange Characters to Make Target String",
+    "slug": "rearrange-characters-to-make-target-string",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2372_rearrange-characters-to-make-target-string"
+  },
+  {
+    "num": 2377,
+    "fid": "2283",
+    "title": "Check if Number Has Equal Digit Count and Digit Value",
+    "slug": "check-if-number-has-equal-digit-count-and-digit-value",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2377_check-if-number-has-equal-digit-count-and-digit-value"
+  },
+  {
+    "num": 2383,
+    "fid": "2235",
+    "title": "Add Two Integers",
+    "slug": "add-two-integers",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2383_add-two-integers"
+  },
+  {
+    "num": 2391,
+    "fid": "2299",
+    "title": "Strong Password Checker II",
+    "slug": "strong-password-checker-ii",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2391_strong-password-checker-ii"
+  },
+  {
+    "num": 2401,
+    "fid": "2315",
+    "title": "Count Asterisks",
+    "slug": "count-asterisks",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2401_count-asterisks"
+  },
+  {
+    "num": 2406,
+    "fid": "2325",
+    "title": "Decode the Message",
+    "slug": "decode-the-message",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2406_decode-the-message"
+  },
+  {
+    "num": 2427,
+    "fid": "2351",
+    "title": "First Letter to Appear Twice",
+    "slug": "first-letter-to-appear-twice",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Bit Manipulation",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2427_first-letter-to-appear-twice"
+  },
+  {
+    "num": 2433,
+    "fid": "2347",
+    "title": "Best Poker Hand",
+    "slug": "best-poker-hand",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2433_best-poker-hand"
+  },
+  {
+    "num": 2436,
+    "fid": "2357",
+    "title": "Make Array Zero by Subtracting Equal Amounts",
+    "slug": "make-array-zero-by-subtracting-equal-amounts",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2436_make-array-zero-by-subtracting-equal-amounts"
+  },
+  {
+    "num": 2442,
+    "fid": "2367",
+    "title": "Number of Arithmetic Triplets",
+    "slug": "number-of-arithmetic-triplets",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Enumeration"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "2442_number-of-arithmetic-triplets"
+  },
+  {
+    "num": 2447,
+    "fid": "2363",
+    "title": "Merge Similar Items",
+    "slug": "merge-similar-items",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Ordered Set"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2447_merge-similar-items"
+  },
+  {
+    "num": 2476,
+    "fid": "2399",
+    "title": "Check Distances Between Same Letters",
+    "slug": "check-distances-between-same-letters",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2476_check-distances-between-same-letters"
+  },
+  {
+    "num": 2480,
+    "fid": "2395",
+    "title": "Find Subarrays With Equal Sum",
+    "slug": "find-subarrays-with-equal-sum",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "2480_find-subarrays-with-equal-sum"
+  },
+  {
+    "num": 2486,
+    "fid": "2404",
+    "title": "Most Frequent Even Element",
+    "slug": "most-frequent-even-element",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2486_most-frequent-even-element"
+  },
+  {
+    "num": 2487,
+    "fid": "2405",
+    "title": "Optimal Partition of String",
+    "slug": "optimal-partition-of-string",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "2487_optimal-partition-of-string"
+  },
+  {
+    "num": 2491,
+    "fid": "2413",
+    "title": "Smallest Even Multiple",
+    "slug": "smallest-even-multiple",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Number Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2491_smallest-even-multiple"
+  },
+  {
+    "num": 2496,
+    "fid": "2409",
+    "title": "Count Days Spent Together",
+    "slug": "count-days-spent-together",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2496_count-days-spent-together"
+  },
+  {
+    "num": 2502,
+    "fid": "2418",
+    "title": "Sort the People",
+    "slug": "sort-the-people",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "2502_sort-the-people"
+  },
+  {
+    "num": 2507,
+    "fid": "2427",
+    "title": "Number of Common Factors",
+    "slug": "number-of-common-factors",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Enumeration",
+      "Number Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2507_number-of-common-factors"
+  },
+  {
+    "num": 2524,
+    "fid": "2441",
+    "title": "Largest Positive Integer That Exists With Its Negative",
+    "slug": "largest-positive-integer-that-exists-with-its-negative",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2524_largest-positive-integer-that-exists-with-its-negative"
+  },
+  {
+    "num": 2525,
+    "fid": "2442",
+    "title": "Count Number of Distinct Integers After Reverse Operations",
+    "slug": "count-number-of-distinct-integers-after-reverse-operations",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2525_count-number-of-distinct-integers-after-reverse-operations"
+  },
+  {
+    "num": 2532,
+    "fid": "2423",
+    "title": "Remove Letter To Equalize Frequency",
+    "slug": "remove-letter-to-equalize-frequency",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2532_remove-letter-to-equalize-frequency"
+  },
+  {
+    "num": 2542,
+    "fid": "2455",
+    "title": "Average Value of Even Numbers That Are Divisible by Three",
+    "slug": "average-value-of-even-numbers-that-are-divisible-by-three",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2542_average-value-of-even-numbers-that-are-divisible-by-three"
+  },
+  {
+    "num": 2547,
+    "fid": "2451",
+    "title": "Odd String Difference",
+    "slug": "odd-string-difference",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2547_odd-string-difference"
+  },
+  {
+    "num": 2551,
+    "fid": "2460",
+    "title": "Apply Operations to an Array",
+    "slug": "apply-operations-to-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2551_apply-operations-to-an-array"
+  },
+  {
+    "num": 2556,
+    "fid": "2469",
+    "title": "Convert the Temperature",
+    "slug": "convert-the-temperature",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2556_convert-the-temperature"
+  },
+  {
+    "num": 2561,
+    "fid": "2465",
+    "title": "Number of Distinct Averages",
+    "slug": "number-of-distinct-averages",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2561_number-of-distinct-averages"
+  },
+  {
+    "num": 2566,
+    "fid": "2475",
+    "title": "Number of Unequal Triplets in Array",
+    "slug": "number-of-unequal-triplets-in-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2566_number-of-unequal-triplets-in-array"
+  },
+  {
+    "num": 2571,
+    "fid": "2485",
+    "title": "Find the Pivot Integer",
+    "slug": "find-the-pivot-integer",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Prefix Sum"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2571_find-the-pivot-integer"
+  },
+  {
+    "num": 2575,
+    "fid": "2481",
+    "title": "Minimum Cuts to Divide a Circle",
+    "slug": "minimum-cuts-to-divide-a-circle",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Geometry"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2575_minimum-cuts-to-divide-a-circle"
+  },
+  {
+    "num": 2580,
+    "fid": "2490",
+    "title": "Circular Sentence",
+    "slug": "circular-sentence",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2580_circular-sentence"
+  },
+  {
+    "num": 2585,
+    "fid": "2500",
+    "title": "Delete Greatest Value in Each Row",
+    "slug": "delete-greatest-value-in-each-row",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Matrix",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2585_delete-greatest-value-in-each-row"
+  },
+  {
+    "num": 2589,
+    "fid": "2496",
+    "title": "Maximum Value of a String in an Array",
+    "slug": "maximum-value-of-a-string-in-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2589_maximum-value-of-a-string-in-an-array"
+  },
+  {
+    "num": 2594,
+    "fid": "2506",
+    "title": "Count Pairs Of Similar Strings",
+    "slug": "count-pairs-of-similar-strings",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Bit Manipulation",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2594_count-pairs-of-similar-strings"
+  },
+  {
+    "num": 2608,
+    "fid": "2520",
+    "title": "Count the Digits That Divide a Number",
+    "slug": "count-the-digits-that-divide-a-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2608_count-the-digits-that-divide-a-number"
+  },
+  {
+    "num": 2614,
+    "fid": "2529",
+    "title": "Maximum Count of Positive Integer and Negative Integer",
+    "slug": "maximum-count-of-positive-integer-and-negative-integer",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2614_maximum-count-of-positive-integer-and-negative-integer"
+  },
+  {
+    "num": 2624,
+    "fid": "2535",
+    "title": "Difference Between Element Sum and Digit Sum of an Array",
+    "slug": "difference-between-element-sum-and-digit-sum-of-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2624_difference-between-element-sum-and-digit-sum-of-an-array"
+  },
+  {
+    "num": 2630,
+    "fid": "2544",
+    "title": "Alternating Digit Sum",
+    "slug": "alternating-digit-sum",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2630_alternating-digit-sum"
+  },
+  {
+    "num": 2631,
+    "fid": "2545",
+    "title": "Sort the Students by Their Kth Score",
+    "slug": "sort-the-students-by-their-kth-score",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Matrix"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2631_sort-the-students-by-their-kth-score"
+  },
+  {
+    "num": 2634,
+    "fid": "2540",
+    "title": "Minimum Common Value",
+    "slug": "minimum-common-value",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Binary Search"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2634_minimum-common-value"
+  },
+  {
+    "num": 2639,
+    "fid": "2553",
+    "title": "Separate the Digits in an Array",
+    "slug": "separate-the-digits-in-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2639_separate-the-digits-in-an-array"
+  },
+  {
+    "num": 2649,
+    "fid": "2579",
+    "title": "Count Total Number of Colored Cells",
+    "slug": "count-total-number-of-colored-cells",
+    "difficulty": "Medium",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2649_count-total-number-of-colored-cells"
+  },
+  {
+    "num": 2654,
+    "fid": "2586",
+    "title": "Count the Number of Vowel Strings in Range",
+    "slug": "count-the-number-of-vowel-strings-in-range",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2654_count-the-number-of-vowel-strings-in-range"
+  },
+  {
+    "num": 2659,
+    "fid": "2595",
+    "title": "Number of Even and Odd Bits",
+    "slug": "number-of-even-and-odd-bits",
+    "difficulty": "Easy",
+    "tags": [
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2659_number-of-even-and-odd-bits"
+  },
+  {
+    "num": 2668,
+    "fid": "2605",
+    "title": "Form Smallest Number From Two Digit Arrays",
+    "slug": "form-smallest-number-from-two-digit-arrays",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Enumeration"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2668_form-smallest-number-from-two-digit-arrays"
+  },
+  {
+    "num": 2679,
+    "fid": "2549",
+    "title": "Count Distinct Numbers on Board",
+    "slug": "count-distinct-numbers-on-board",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Simulation"
+    ],
+    "langs": [
+      "java"
+    ],
+    "folder": "2679_count-distinct-numbers-on-board"
+  },
+  {
+    "num": 2692,
+    "fid": "2558",
+    "title": "Take Gifts From the Richest Pile",
+    "slug": "take-gifts-from-the-richest-pile",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Heap (Priority Queue)",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2692_take-gifts-from-the-richest-pile"
+  },
+  {
+    "num": 2698,
+    "fid": "2562",
+    "title": "Find the Array Concatenation Value",
+    "slug": "find-the-array-concatenation-value",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2698_find-the-array-concatenation-value"
+  },
+  {
+    "num": 2707,
+    "fid": "2570",
+    "title": "Merge Two 2D Arrays by Summing Values",
+    "slug": "merge-two-2d-arrays-by-summing-values",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2707_merge-two-2d-arrays-by-summing-values"
+  },
+  {
+    "num": 2714,
+    "fid": "2574",
+    "title": "Left and Right Sum Differences",
+    "slug": "left-and-right-sum-differences",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2714_left-and-right-sum-differences"
+  },
+  {
+    "num": 2722,
+    "fid": "2614",
+    "title": "Prime In Diagonal",
+    "slug": "prime-in-diagonal",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Matrix",
+      "Number Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2722_prime-in-diagonal"
+  },
+  {
+    "num": 2724,
+    "fid": "2610",
+    "title": "Convert an Array Into a 2D Array With Conditions",
+    "slug": "convert-an-array-into-a-2d-array-with-conditions",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2724_convert-an-array-into-a-2d-array-with-conditions"
+  },
+  {
+    "num": 2727,
+    "fid": "2678",
+    "title": "Number of Senior Citizens",
+    "slug": "number-of-senior-citizens",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2727_number-of-senior-citizens"
+  },
+  {
+    "num": 2737,
+    "fid": "2643",
+    "title": "Row With Maximum Ones",
+    "slug": "row-with-maximum-ones",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Matrix"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2737_row-with-maximum-ones"
+  },
+  {
+    "num": 2748,
+    "fid": "2651",
+    "title": "Calculate Delayed Arrival Time",
+    "slug": "calculate-delayed-arrival-time",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2748_calculate-delayed-arrival-time"
+  },
+  {
+    "num": 2752,
+    "fid": "2652",
+    "title": "Sum Multiples",
+    "slug": "sum-multiples",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2752_sum-multiples"
+  },
+  {
+    "num": 2756,
+    "fid": "2706",
+    "title": "Buy Two Chocolates",
+    "slug": "buy-two-chocolates",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2756_buy-two-chocolates"
+  },
+  {
+    "num": 2766,
+    "fid": "2657",
+    "title": "Find the Prefix Common Array of Two Arrays",
+    "slug": "find-the-prefix-common-array-of-two-arrays",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2766_find-the-prefix-common-array-of-two-arrays"
+  },
+  {
+    "num": 2767,
+    "fid": "2656",
+    "title": "Maximum Sum With Exactly K Elements ",
+    "slug": "maximum-sum-with-exactly-k-elements",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Greedy"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2767_maximum-sum-with-exactly-k-elements"
+  },
+  {
+    "num": 2800,
+    "fid": "2696",
+    "title": "Minimum String Length After Removing Substrings",
+    "slug": "minimum-string-length-after-removing-substrings",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Stack",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2800_minimum-string-length-after-removing-substrings"
+  },
+  {
+    "num": 2812,
+    "fid": "2769",
+    "title": "Find the Maximum Achievable Number",
+    "slug": "find-the-maximum-achievable-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2812_find-the-maximum-achievable-number"
+  },
+  {
+    "num": 2816,
+    "fid": "2697",
+    "title": "Lexicographically Smallest Palindrome",
+    "slug": "lexicographically-smallest-palindrome",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Greedy"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2816_lexicographically-smallest-palindrome"
+  },
+  {
+    "num": 2819,
+    "fid": "2710",
+    "title": "Remove Trailing Zeros From a String",
+    "slug": "remove-trailing-zeros-from-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2819_remove-trailing-zeros-from-a-string"
+  },
+  {
+    "num": 2820,
+    "fid": "2703",
+    "title": "Return Length of Arguments Passed",
+    "slug": "return-length-of-arguments-passed",
+    "difficulty": "Easy",
+    "tags": [],
+    "langs": [
+      "js"
+    ],
+    "folder": "2820_return-length-of-arguments-passed"
+  },
+  {
+    "num": 2824,
+    "fid": "2729",
+    "title": "Check if The Number is Fascinating",
+    "slug": "check-if-the-number-is-fascinating",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2824_check-if-the-number-is-fascinating"
+  },
+  {
+    "num": 2825,
+    "fid": "2716",
+    "title": "Minimize String Length",
+    "slug": "minimize-string-length",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2825_minimize-string-length"
+  },
+  {
+    "num": 2836,
+    "fid": "2733",
+    "title": "Neither Minimum nor Maximum",
+    "slug": "neither-minimum-nor-maximum",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2836_neither-minimum-nor-maximum"
+  },
+  {
+    "num": 2844,
+    "fid": "2778",
+    "title": "Sum of Squares of Special Elements ",
+    "slug": "sum-of-squares-of-special-elements",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Enumeration"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2844_sum-of-squares-of-special-elements"
+  },
+  {
+    "num": 2847,
+    "fid": "2744",
+    "title": "Find Maximum Number of String Pairs",
+    "slug": "find-maximum-number-of-string-pairs",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2847_find-maximum-number-of-string-pairs"
+  },
+  {
+    "num": 2859,
+    "fid": "2723",
+    "title": "Add Two Promises",
+    "slug": "add-two-promises",
+    "difficulty": "Easy",
+    "tags": [],
+    "langs": [
+      "js"
+    ],
+    "folder": "2859_add-two-promises"
+  },
+  {
+    "num": 2876,
+    "fid": "2798",
+    "title": "Number of Employees Who Met the Target",
+    "slug": "number-of-employees-who-met-the-target",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2876_number-of-employees-who-met-the-target"
+  },
+  {
+    "num": 2881,
+    "fid": "2788",
+    "title": "Split Strings by Separator",
+    "slug": "split-strings-by-separator",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2881_split-strings-by-separator"
+  },
+  {
+    "num": 2886,
+    "fid": "2810",
+    "title": "Faulty Keyboard",
+    "slug": "faulty-keyboard",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2886_faulty-keyboard"
+  },
+  {
+    "num": 2887,
+    "fid": "2785",
+    "title": "Sort Vowels in a String",
+    "slug": "sort-vowels-in-a-string",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2887_sort-vowels-in-a-string"
+  },
+  {
+    "num": 2892,
+    "fid": "2784",
+    "title": "Check if Array is Good",
+    "slug": "check-if-array-is-good",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2892_check-if-array-is-good"
+  },
+  {
+    "num": 2917,
+    "fid": "2824",
+    "title": "Count Pairs Whose Sum is Less than Target",
+    "slug": "count-pairs-whose-sum-is-less-than-target",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2917_count-pairs-whose-sum-is-less-than-target"
+  },
+  {
+    "num": 2955,
+    "fid": "2806",
+    "title": "Account Balance After Rounded Purchase",
+    "slug": "account-balance-after-rounded-purchase",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2955_account-balance-after-rounded-purchase"
+  },
+  {
+    "num": 2977,
+    "fid": "2828",
+    "title": "Check if a String Is an Acronym of Words",
+    "slug": "check-if-a-string-is-an-acronym-of-words",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2977_check-if-a-string-is-an-acronym-of-words"
+  },
+  {
+    "num": 2998,
+    "fid": "2843",
+    "title": "  Count Symmetric Integers",
+    "slug": "count-symmetric-integers",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Enumeration"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "2998_count-symmetric-integers"
+  },
+  {
+    "num": 3055,
+    "fid": "2864",
+    "title": "Maximum Odd Binary Number",
+    "slug": "maximum-odd-binary-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String",
+      "Greedy"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3055_maximum-odd-binary-number"
+  },
+  {
+    "num": 3093,
+    "fid": "2859",
+    "title": "Sum of Values at Indices With K Set Bits",
+    "slug": "sum-of-values-at-indices-with-k-set-bits",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3093_sum-of-values-at-indices-with-k-set-bits"
+  },
+  {
+    "num": 3163,
+    "fid": "2913",
+    "title": "Subarrays Distinct Element Sum of Squares I",
+    "slug": "subarrays-distinct-element-sum-of-squares-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Segment Tree"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3163_subarrays-distinct-element-sum-of-squares-i"
+  },
+  {
+    "num": 3172,
+    "fid": "2894",
+    "title": "Divisible and Non-divisible Sums Difference",
+    "slug": "divisible-and-non-divisible-sums-difference",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3172_divisible-and-non-divisible-sums-difference"
+  },
+  {
+    "num": 3188,
+    "fid": "2923",
+    "title": "Find Champion I",
+    "slug": "find-champion-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Matrix"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3188_find-champion-i"
+  },
+  {
+    "num": 3194,
+    "fid": "2942",
+    "title": "Find Words Containing Character",
+    "slug": "find-words-containing-character",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3194_find-words-containing-character"
+  },
+  {
+    "num": 3206,
+    "fid": "2956",
+    "title": "Find Common Elements Between Two Arrays",
+    "slug": "find-common-elements-between-two-arrays",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3206_find-common-elements-between-two-arrays"
+  },
+  {
+    "num": 3220,
+    "fid": "2960",
+    "title": "Count Tested Devices After Test Operations",
+    "slug": "count-tested-devices-after-test-operations",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3220_count-tested-devices-after-test-operations"
+  },
+  {
+    "num": 3221,
+    "fid": "2951",
+    "title": "Find the Peaks",
+    "slug": "find-the-peaks",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Enumeration"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3221_find-the-peaks"
+  },
+  {
+    "num": 3226,
+    "fid": "2974",
+    "title": "Minimum Number Game",
+    "slug": "minimum-number-game",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3226_minimum-number-game"
+  },
+  {
+    "num": 3227,
+    "fid": "2965",
+    "title": "Find Missing and Repeated Values",
+    "slug": "find-missing-and-repeated-values",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Matrix"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3227_find-missing-and-repeated-values"
+  },
+  {
+    "num": 3236,
+    "fid": "2996",
+    "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
+    "slug": "smallest-missing-integer-greater-than-sequential-prefix-sum",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3236_smallest-missing-integer-greater-than-sequential-prefix-sum"
+  },
+  {
+    "num": 3242,
+    "fid": "3005",
+    "title": "Count Elements With Maximum Frequency",
+    "slug": "count-elements-with-maximum-frequency",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3242_count-elements-with-maximum-frequency"
+  },
+  {
+    "num": 3246,
+    "fid": "2980",
+    "title": "Check if Bitwise OR Has Trailing Zeros",
+    "slug": "check-if-bitwise-or-has-trailing-zeros",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3246_check-if-bitwise-or-has-trailing-zeros"
+  },
+  {
+    "num": 3251,
+    "fid": "3000",
+    "title": "Maximum Area of Longest Diagonal Rectangle",
+    "slug": "maximum-area-of-longest-diagonal-rectangle",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3251_maximum-area-of-longest-diagonal-rectangle"
+  },
+  {
+    "num": 3309,
+    "fid": "3042",
+    "title": "Count Prefix and Suffix Pairs I",
+    "slug": "count-prefix-and-suffix-pairs-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String",
+      "Trie",
+      "Rolling Hash",
+      "String Matching",
+      "Hash Function"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3309_count-prefix-and-suffix-pairs-i"
+  },
+  {
+    "num": 3311,
+    "fid": "3028",
+    "title": "Ant on the Boundary",
+    "slug": "ant-on-the-boundary",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation",
+      "Prefix Sum"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3311_ant-on-the-boundary"
+  },
+  {
+    "num": 3312,
+    "fid": "3019",
+    "title": "Number of Changing Keys",
+    "slug": "number-of-changing-keys",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3312_number-of-changing-keys"
+  },
+  {
+    "num": 3321,
+    "fid": "3024",
+    "title": "Type of Triangle",
+    "slug": "type-of-triangle",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3321_type-of-triangle"
+  },
+  {
+    "num": 3330,
+    "fid": "3033",
+    "title": "Modify the Matrix",
+    "slug": "modify-the-matrix",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Matrix"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3330_modify-the-matrix"
+  },
+  {
+    "num": 3331,
+    "fid": "3065",
+    "title": "Minimum Operations to Exceed Threshold Value I",
+    "slug": "minimum-operations-to-exceed-threshold-value-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3331_minimum-operations-to-exceed-threshold-value-i"
+  },
+  {
+    "num": 3361,
+    "fid": "3114",
+    "title": "Latest Time You Can Obtain After Replacing Characters",
+    "slug": "latest-time-you-can-obtain-after-replacing-characters",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Enumeration"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3361_latest-time-you-can-obtain-after-replacing-characters"
+  },
+  {
+    "num": 3367,
+    "fid": "3079",
+    "title": "Find the Sum of Encrypted Integers",
+    "slug": "find-the-sum-of-encrypted-integers",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3367_find-the-sum-of-encrypted-integers"
+  },
+  {
+    "num": 3371,
+    "fid": "3099",
+    "title": "Harshad Number",
+    "slug": "harshad-number",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3371_harshad-number"
+  },
+  {
+    "num": 3379,
+    "fid": "3110",
+    "title": "Score of a String",
+    "slug": "score-of-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3379_score-of-a-string"
+  },
+  {
+    "num": 3396,
+    "fid": "3136",
+    "title": "Valid Word",
+    "slug": "valid-word",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3396_valid-word"
+  },
+  {
+    "num": 3397,
+    "fid": "3131",
+    "title": "Find the Integer Added to Array I",
+    "slug": "find-the-integer-added-to-array-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3397_find-the-integer-added-to-array-i"
+  },
+  {
+    "num": 3408,
+    "fid": "3120",
+    "title": "Count the Number of Special Characters I",
+    "slug": "count-the-number-of-special-characters-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3408_count-the-number-of-special-characters-i"
+  },
+  {
+    "num": 3412,
+    "fid": "3146",
+    "title": "Permutation Difference between Two Strings",
+    "slug": "permutation-difference-between-two-strings",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3412_permutation-difference-between-two-strings"
+  },
+  {
+    "num": 3421,
+    "fid": "3184",
+    "title": "Count Pairs That Form a Complete Day I",
+    "slug": "count-pairs-that-form-a-complete-day-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3421_count-pairs-that-form-a-complete-day-i"
+  },
+  {
+    "num": 3426,
+    "fid": "3168",
+    "title": "Minimum Number of Chairs in a Waiting Room",
+    "slug": "minimum-number-of-chairs-in-a-waiting-room",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3426_minimum-number-of-chairs-in-a-waiting-room"
+  },
+  {
+    "num": 3429,
+    "fid": "3151",
+    "title": "Special Array I",
+    "slug": "special-array-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3429_special-array-i"
+  },
+  {
+    "num": 3446,
+    "fid": "3162",
+    "title": "Find the Number of Good Pairs I",
+    "slug": "find-the-number-of-good-pairs-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3446_find-the-number-of-good-pairs-i"
+  },
+  {
+    "num": 3447,
+    "fid": "3174",
+    "title": "Clear Digits",
+    "slug": "clear-digits",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Stack",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3447_clear-digits"
+  },
+  {
+    "num": 3453,
+    "fid": "3211",
+    "title": "Generate Binary Strings Without Adjacent Zeros",
+    "slug": "generate-binary-strings-without-adjacent-zeros",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Backtracking",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3453_generate-binary-strings-without-adjacent-zeros"
+  },
+  {
+    "num": 3462,
+    "fid": "3227",
+    "title": "Vowels Game in a String",
+    "slug": "vowels-game-in-a-string",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "String",
+      "Brainteaser",
+      "Game Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3462_vowels-game-in-a-string"
+  },
+  {
+    "num": 3468,
+    "fid": "3210",
+    "title": "Find the Encrypted String",
+    "slug": "find-the-encrypted-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3468_find-the-encrypted-string"
+  },
+  {
+    "num": 3471,
+    "fid": "3194",
+    "title": "Minimum Average of Smallest and Largest Elements",
+    "slug": "minimum-average-of-smallest-and-largest-elements",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3471_minimum-average-of-smallest-and-largest-elements"
+  },
+  {
+    "num": 3476,
+    "fid": "3190",
+    "title": "Find Minimum Operations to Make All Elements Divisible by Three",
+    "slug": "find-minimum-operations-to-make-all-elements-divisible-by-three",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3476_find-minimum-operations-to-make-all-elements-divisible-by-three"
+  },
+  {
+    "num": 3515,
+    "fid": "3232",
+    "title": "Find if Digit Game Can Be Won",
+    "slug": "find-if-digit-game-can-be-won",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3515_find-if-digit-game-can-be-won"
+  },
+  {
+    "num": 3533,
+    "fid": "3248",
+    "title": "Snake in Matrix",
+    "slug": "snake-in-matrix",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3533_snake-in-matrix"
+  },
+  {
+    "num": 3543,
+    "fid": "3258",
+    "title": "Count Substrings That Satisfy K-Constraint I",
+    "slug": "count-substrings-that-satisfy-k-constraint-i",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Sliding Window"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3543_count-substrings-that-satisfy-k-constraint-i"
+  },
+  {
+    "num": 3553,
+    "fid": "3274",
+    "title": "Check if Two Chessboard Squares Have the Same Color",
+    "slug": "check-if-two-chessboard-squares-have-the-same-color",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3553_check-if-two-chessboard-squares-have-the-same-color"
+  },
+  {
+    "num": 3555,
+    "fid": "3264",
+    "title": "Final Array State After K Multiplication Operations I",
+    "slug": "final-array-state-after-k-multiplication-operations-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Heap (Priority Queue)",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3555_final-array-state-after-k-multiplication-operations-i"
+  },
+  {
+    "num": 3566,
+    "fid": "3324",
+    "title": "Find the Sequence of Strings Appeared on the Screen",
+    "slug": "find-the-sequence-of-strings-appeared-on-the-screen",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3566_find-the-sequence-of-strings-appeared-on-the-screen"
+  },
+  {
+    "num": 3567,
+    "fid": "3280",
+    "title": "Convert Date to Binary",
+    "slug": "convert-date-to-binary",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3567_convert-date-to-binary"
+  },
+  {
+    "num": 3568,
+    "fid": "3270",
+    "title": "Find the Key of the Numbers",
+    "slug": "find-the-key-of-the-numbers",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3568_find-the-key-of-the-numbers"
+  },
+  {
+    "num": 3581,
+    "fid": "3289",
+    "title": "The Two Sneaky Numbers of Digitville",
+    "slug": "the-two-sneaky-numbers-of-digitville",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3581_the-two-sneaky-numbers-of-digitville"
+  },
+  {
+    "num": 3582,
+    "fid": "3285",
+    "title": "Find Indices of Stable Mountains",
+    "slug": "find-indices-of-stable-mountains",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3582_find-indices-of-stable-mountains"
+  },
+  {
+    "num": 3600,
+    "fid": "3304",
+    "title": "Find the K-th Character in String Game I",
+    "slug": "find-the-k-th-character-in-string-game-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Bit Manipulation",
+      "Recursion",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3600_find-the-k-th-character-in-string-game-i"
+  },
+  {
+    "num": 3606,
+    "fid": "3300",
+    "title": "Minimum Element After Replacement With Digit Sum",
+    "slug": "minimum-element-after-replacement-with-digit-sum",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3606_minimum-element-after-replacement-with-digit-sum"
+  },
+  {
+    "num": 3621,
+    "fid": "3375",
+    "title": "Minimum Operations to Make Array Values Equal to K",
+    "slug": "minimum-operations-to-make-array-values-equal-to-k",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3621_minimum-operations-to-make-array-values-equal-to-k"
+  },
+  {
+    "num": 3626,
+    "fid": "3345",
+    "title": "Smallest Divisible Digit Product I",
+    "slug": "smallest-divisible-digit-product-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Enumeration"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3626_smallest-divisible-digit-product-i"
+  },
+  {
+    "num": 3636,
+    "fid": "3340",
+    "title": "Check Balanced String",
+    "slug": "check-balanced-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3636_check-balanced-string"
+  },
+  {
+    "num": 3676,
+    "fid": "3370",
+    "title": "Smallest Number With All Set Bits",
+    "slug": "smallest-number-with-all-set-bits",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3676_smallest-number-with-all-set-bits"
+  },
+  {
+    "num": 3704,
+    "fid": "3432",
+    "title": "Count Partitions with Even Sum Difference",
+    "slug": "count-partitions-with-even-sum-difference",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Prefix Sum"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3704_count-partitions-with-even-sum-difference"
+  },
+  {
+    "num": 3723,
+    "fid": "3452",
+    "title": "Sum of Good Numbers",
+    "slug": "sum-of-good-numbers",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3723_sum-of-good-numbers"
+  },
+  {
+    "num": 3731,
+    "fid": "3427",
+    "title": "Sum of Variable Length Subarrays",
+    "slug": "sum-of-variable-length-subarrays",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3731_sum-of-variable-length-subarrays"
+  },
+  {
+    "num": 3747,
+    "fid": "3423",
+    "title": "Maximum Difference Between Adjacent Elements in a Circular Array",
+    "slug": "maximum-difference-between-adjacent-elements-in-a-circular-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3747_maximum-difference-between-adjacent-elements-in-a-circular-array"
+  },
+  {
+    "num": 3768,
+    "fid": "3461",
+    "title": "Check If Digits Are Equal in String After Operations I",
+    "slug": "check-if-digits-are-equal-in-string-after-operations-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String",
+      "Simulation",
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3768_check-if-digits-are-equal-in-string-after-operations-i"
+  },
+  {
+    "num": 3778,
+    "fid": "3467",
+    "title": "Transform Array by Parity",
+    "slug": "transform-array-by-parity",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3778_transform-array-by-parity"
+  },
+  {
+    "num": 3811,
+    "fid": "3498",
+    "title": "Reverse Degree of a String",
+    "slug": "reverse-degree-of-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3811_reverse-degree-of-a-string"
+  },
+  {
+    "num": 3830,
+    "fid": "3516",
+    "title": "Find Closest Person",
+    "slug": "find-closest-person",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3830_find-closest-person"
+  },
+  {
+    "num": 3846,
+    "fid": "3512",
+    "title": "Minimum Operations to Make Array Sum Divisible by K",
+    "slug": "minimum-operations-to-make-array-sum-divisible-by-k",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3846_minimum-operations-to-make-array-sum-divisible-by-k"
+  },
+  {
+    "num": 3859,
+    "fid": "3536",
+    "title": "Maximum Product of Two Digits",
+    "slug": "maximum-product-of-two-digits",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3859_maximum-product-of-two-digits"
+  },
+  {
+    "num": 3869,
+    "fid": "3550",
+    "title": "Smallest Index With Digit Sum Equal to Index",
+    "slug": "smallest-index-with-digit-sum-equal-to-index",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3869_smallest-index-with-digit-sum-equal-to-index"
+  },
+  {
+    "num": 3872,
+    "fid": "3541",
+    "title": "Find Most Frequent Vowel and Consonant",
+    "slug": "find-most-frequent-vowel-and-consonant",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3872_find-most-frequent-vowel-and-consonant"
+  },
+  {
+    "num": 3893,
+    "fid": "3582",
+    "title": "Generate Tag for Video Caption",
+    "slug": "generate-tag-for-video-caption",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3893_generate-tag-for-video-caption"
+  },
+  {
+    "num": 3912,
+    "fid": "3602",
+    "title": "Hexadecimal and Hexatrigesimal Conversion",
+    "slug": "hexadecimal-and-hexatrigesimal-conversion",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3912_hexadecimal-and-hexatrigesimal-conversion"
+  },
+  {
+    "num": 3914,
+    "fid": "3591",
+    "title": "Check if Any Element Has Prime Frequency",
+    "slug": "check-if-any-element-has-prime-frequency",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Counting",
+      "Number Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3914_check-if-any-element-has-prime-frequency"
+  },
+  {
+    "num": 3918,
+    "fid": "3622",
+    "title": "Check Divisibility by Digit Sum and Product",
+    "slug": "check-divisibility-by-digit-sum-and-product",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3918_check-divisibility-by-digit-sum-and-product"
+  },
+  {
+    "num": 3994,
+    "fid": "3663",
+    "title": "Find The Least Frequent Digit",
+    "slug": "find-the-least-frequent-digit",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3994_find-the-least-frequent-digit"
+  },
+  {
+    "num": 3995,
+    "fid": "3658",
+    "title": "GCD of Odd and Even Sums",
+    "slug": "gcd-of-odd-and-even-sums",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Number Theory"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3995_gcd-of-odd-and-even-sums"
+  },
+  {
+    "num": 3997,
+    "fid": "3684",
+    "title": "Maximize Sum of At Most K Distinct Elements",
+    "slug": "maximize-sum-of-at-most-k-distinct-elements",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3997_maximize-sum-of-at-most-k-distinct-elements"
+  },
+  {
+    "num": 4008,
+    "fid": "3668",
+    "title": "Restore Finishing Order",
+    "slug": "restore-finishing-order",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4008_restore-finishing-order"
+  },
+  {
+    "num": 4012,
+    "fid": "3683",
+    "title": "Earliest Time to Finish One Task",
+    "slug": "earliest-time-to-finish-one-task",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4012_earliest-time-to-finish-one-task"
+  },
+  {
+    "num": 4052,
+    "fid": "3707",
+    "title": "Equal Score Substrings",
+    "slug": "equal-score-substrings",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Prefix Sum"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4052_equal-score-substrings"
+  },
+  {
+    "num": 4058,
+    "fid": "3701",
+    "title": "Compute Alternating Sum",
+    "slug": "compute-alternating-sum",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4058_compute-alternating-sum"
+  },
+  {
+    "num": 4068,
+    "fid": "3712",
+    "title": "Sum of Elements With Frequency Divisible by K",
+    "slug": "sum-of-elements-with-frequency-divisible-by-k",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4068_sum-of-elements-with-frequency-divisible-by-k"
+  },
+  {
+    "num": 4080,
+    "fid": "3718",
+    "title": "Smallest Missing Multiple of K",
+    "slug": "smallest-missing-multiple-of-k",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4080_smallest-missing-multiple-of-k"
+  },
+  {
+    "num": 4087,
+    "fid": "3760",
+    "title": "Maximum Substrings With Distinct Start",
+    "slug": "maximum-substrings-with-distinct-start",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4087_maximum-substrings-with-distinct-start"
+  },
+  {
+    "num": 4107,
+    "fid": "3731",
+    "title": "Find Missing Elements",
+    "slug": "find-missing-elements",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4107_find-missing-elements"
+  },
+  {
+    "num": 4135,
+    "fid": "3754",
+    "title": "Concatenate Non-Zero Digits and Multiply by Sum I",
+    "slug": "concatenate-non-zero-digits-and-multiply-by-sum-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4135_concatenate-non-zero-digits-and-multiply-by-sum-i"
+  },
+  {
+    "num": 4150,
+    "fid": "3769",
+    "title": "Sort Integers by Binary Reflection",
+    "slug": "sort-integers-by-binary-reflection",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4150_sort-integers-by-binary-reflection"
+  },
+  {
+    "num": 4168,
+    "fid": "3783",
+    "title": "Mirror Distance of an Integer",
+    "slug": "mirror-distance-of-an-integer",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4168_mirror-distance-of-an-integer"
+  },
+  {
+    "num": 4177,
+    "fid": "3794",
+    "title": "Reverse String Prefix",
+    "slug": "reverse-string-prefix",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4177_reverse-string-prefix"
+  },
+  {
+    "num": 4178,
+    "fid": "3813",
+    "title": "Vowel-Consonant Score",
+    "slug": "vowel-consonant-score",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4178_vowel-consonant-score"
+  },
+  {
+    "num": 4179,
+    "fid": "3798",
+    "title": "Largest Even Number",
+    "slug": "largest-even-number",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4179_largest-even-number"
+  },
+  {
+    "num": 4186,
+    "fid": "3803",
+    "title": "Count Residue Prefixes",
+    "slug": "count-residue-prefixes",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "4186_count-residue-prefixes"
+  }
+]

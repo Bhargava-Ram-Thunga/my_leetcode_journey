@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode → GitHub Sync",
+  "version": "1.0.0",
+  "description": "Auto-detects LeetCode login and syncs your cookie to GitHub Actions secret",
+  "permissions": ["cookies", "storage", "notifications", "clipboardWrite"],
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "https://api.github.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "LeetCode Sync",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
