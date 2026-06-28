@@ -1,9 +1,48 @@
 // background.js — Service Worker
 // Watches for LeetCode LEETCODE_SESSION cookie changes (login events)
 // and updates the GitHub Actions secret automatically.
+//
+// 🔒 ACCOUNT GUARD: Only acts when the cookie belongs to YOUR account.
+// If you log into someone else's LeetCode, this extension ignores it entirely.
 
-const LEETCODE_HOST = "leetcode.com";
-const SESSION_KEY   = "LEETCODE_SESSION";
+const LEETCODE_HOST  = "leetcode.com";
+const SESSION_KEY    = "LEETCODE_SESSION";
+const OWNER_USERNAME = "bh4gav"; // ← YOUR LeetCode user_slug (from LEETCODE_SESSION JWT)
+
+// ─── Decode the LEETCODE_SESSION JWT and extract username ────────────────────
+function decodeSessionUsername(sessionCookieValue) {
+  try {
+    // JWT = header.payload.signature — we only need payload (index 1)
+    const parts = sessionCookieValue.split(".");
+    if (parts.length !== 3) return null;
+
+    // base64url → base64 → JSON
+    const b64 = parts[1].replace(/-/g, "+").replace(/_/g, "/");
+    const pad  = b64.length % 4 === 0 ? "" : "=".repeat(4 - b64.length % 4);
+    const json = atob(b64 + pad);
+    const payload = JSON.parse(json);
+
+    // LeetCode JWT payload contains: { username, user_slug, email, id, ... }
+    return (payload.user_slug || payload.username || "").toLowerCase();
+  } catch (e) {
+    console.warn("[LeetCode Sync] Failed to decode JWT:", e);
+    return null;
+  }
+}
+
+// ─── Verify this cookie belongs to our account ──────────────────────────────
+function isOurAccount(sessionCookieValue) {
+  const slug = decodeSessionUsername(sessionCookieValue);
+  if (!slug) {
+    console.warn("[LeetCode Sync] Could not determine account from cookie — ignoring.");
+    return false;
+  }
+  const isMatch = slug === OWNER_USERNAME.toLowerCase();
+  if (!isMatch) {
+    console.log(`[LeetCode Sync] 🚫 Cookie belongs to "${slug}", not "${OWNER_USERNAME}" — ignoring.`);
+  }
+  return isMatch;
+}
 const GH_API        = "https://api.github.com";
 
 // ─── Collect all LeetCode cookies into one string ─────────────────
@@ -111,11 +150,17 @@ async function triggerSync(owner, repo, pat) {
 
 // ─── Cookie change listener ───────────────────────────────────────
 chrome.cookies.onChanged.addListener(async ({ cookie, removed }) => {
-  if (cookie.domain.includes(LEETCODE_HOST) &&
-      cookie.name === SESSION_KEY &&
-      !removed) {
+  if (!cookie.domain.includes(LEETCODE_HOST)) return;
+  if (cookie.name !== SESSION_KEY) return;
+  if (removed) return;
 
-    console.log("[LeetCode Sync] LEETCODE_SESSION changed — login detected!");
+  // 🔒 ACCOUNT GUARD: verify this cookie is for OUR account
+  if (!isOurAccount(cookie.value)) {
+    // Silently ignore — someone else's account logged in
+    return;
+  }
+
+  console.log(`[LeetCode Sync] ✅ ${OWNER_USERNAME}'s session detected!`);
 
     // Collect the full cookie string
     const fullCookie = await collectCookies();
@@ -166,7 +211,6 @@ chrome.cookies.onChanged.addListener(async ({ cookie, removed }) => {
         message: "New cookie captured. Open the extension to sync it to GitHub.",
       });
     }
-  }
 });
 
 // ─── Message handler (from popup) ────────────────────────────────

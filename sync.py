@@ -30,7 +30,8 @@ RAW_DIR    = REPO_DIR / ".raw_export"
 META_FILE  = REPO_DIR / ".problems_meta.json"
 SOL_DIR    = REPO_DIR / "solutions"
 
-USERNAME   = "Bh4gav"
+USERNAME   = "bhargava-ram-thunga"    # display name / profile URL slug
+USER_SLUG  = "bh4gav"                 # LeetCode internal user_slug (from JWT) — used to verify cookie ownership
 GQL        = "https://leetcode.com/graphql"
 
 DIFF_EMOJI = {"Easy": "🟢", "Medium": "🟡", "Hard": "🔴"}
@@ -58,6 +59,42 @@ def get_session(cookie: str) -> requests.Session:
         "x-csrftoken":csrf,"Cookie":cookie,"User-Agent":"Mozilla/5.0",
     })
     return s
+
+# ─── Account guard ───────────────────────────────────────────────
+def decode_session_username(cookie: str) -> str | None:
+    """Decode LEETCODE_SESSION JWT and return user_slug, or None on failure."""
+    session_val = next(
+        (p.split("=",1)[1] for p in cookie.split(";") if p.strip().startswith("LEETCODE_SESSION=")), ""
+    )
+    if not session_val:
+        return None
+    try:
+        import base64, json as _json
+        parts = session_val.split(".")
+        if len(parts) != 3:
+            return None
+        # base64url → bytes
+        pad = "=" * (4 - len(parts[1]) % 4) if len(parts[1]) % 4 else ""
+        payload = _json.loads(base64.urlsafe_b64decode(parts[1] + pad))
+        return (payload.get("user_slug") or payload.get("username") or "").lower()
+    except Exception as e:
+        print(f"  ⚠  Could not decode LEETCODE_SESSION JWT: {e}")
+        return None
+
+
+def verify_cookie_owner(cookie: str) -> bool:
+    """Return True only if the cookie belongs to USER_SLUG."""
+    slug = decode_session_username(cookie)
+    if slug is None:
+        print("  ❌  Could not verify cookie owner — aborting for safety.")
+        return False
+    if slug != USER_SLUG.lower():
+        print(f"  ❌  Cookie belongs to '{slug}', not '{USER_SLUG}'. Aborting!")
+        print("      (You may be logged into a different LeetCode account.)")
+        return False
+    print(f"  ✅  Cookie verified: belongs to '{slug}'")
+    return True
+
 
 # ─── GraphQL ────────────────────────────────────────────────────
 def fetch_meta(session: requests.Session, slug: str) -> dict:
@@ -388,6 +425,11 @@ def main():
     print(f"{'='*52}\n")
 
     cookie  = get_cookie()
+
+    # 🔒 Account guard — abort if cookie belongs to a different LeetCode account
+    if not verify_cookie_owner(cookie):
+        sys.exit(1)
+
     existing= load_meta()
     print(f"  📂  Known: {len(existing)} problems")
 
