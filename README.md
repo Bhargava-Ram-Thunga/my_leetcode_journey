@@ -2,14 +2,14 @@
 
 # 🚀 My LeetCode Journey
 
-*537 problems solved · auto-synced via GitHub Actions*
+*541 problems solved · auto-synced via GitHub Actions*
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-bhargava--ram--thunga-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/bhargava-ram-thunga/)
 [![Auto-Sync](https://img.shields.io/badge/auto--sync-every%2030min-4CAF50?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/Bhargava-Ram-Thunga/my_leetcode_journey/actions)
 
-![Solved](https://img.shields.io/badge/Solved-537-blueviolet?style=flat-square)
-![Easy](https://img.shields.io/badge/Easy-469-brightgreen?style=flat-square)
-![Medium](https://img.shields.io/badge/Medium-67-orange?style=flat-square)
+![Solved](https://img.shields.io/badge/Solved-541-blueviolet?style=flat-square)
+![Easy](https://img.shields.io/badge/Easy-472-brightgreen?style=flat-square)
+![Medium](https://img.shields.io/badge/Medium-68-orange?style=flat-square)
 ![Hard](https://img.shields.io/badge/Hard-1-red?style=flat-square)
 
 </div>
@@ -27,18 +27,18 @@
 ## 📊 Progress
 
 ```
-  Easy     469  ███████████████████░░░   87.3%
-  Medium    67  ███░░░░░░░░░░░░░░░░░░░   12.5%
+  Easy     472  ███████████████████░░░   87.2%
+  Medium    68  ███░░░░░░░░░░░░░░░░░░░   12.6%
   Hard       1  ░░░░░░░░░░░░░░░░░░░░░░    0.2%
   ────────────────────────────────────────
-  Total    537  ██████████████████████  100.0%
+  Total    541  ██████████████████████  100.0%
 ```
 
 ---
 
 ## 🛠️ Languages Used
 
-![Python](https://img.shields.io/badge/Python-500-informational?style=flat-square) ![Java](https://img.shields.io/badge/Java-37-informational?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-14-informational?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-4-informational?style=flat-square)
+![Python](https://img.shields.io/badge/Python-504-informational?style=flat-square) ![Java](https://img.shields.io/badge/Java-37-informational?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-14-informational?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-4-informational?style=flat-square)
 
 ---
 
@@ -46,16 +46,16 @@
 
 | Date | # | Title | Difficulty |
 |:----:|:-:|:------|:----------:|
+| 2026-06-29 | 3038 | [Maximum Number of Operations With the Same Score I](solutions/3320_maximum-number-of-operations-with-the-same-score-i/) | 🟢 Easy |
+| 2026-06-29 | 3142 | [Check if Grid Satisfies Conditions](solutions/3415_check-if-grid-satisfies-conditions/) | 🟢 Easy |
+| 2026-06-29 | 3158 | [Find the XOR of Numbers Which Appear Twice](solutions/3428_find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy |
+| 2026-06-29 | 3163 | [String Compression III](solutions/3451_string-compression-iii/) | 🟡 Medium |
 | 2026-06-28 | 3046 | [Split the Array](solutions/3324_split-the-array/) | 🟢 Easy |
 | 2026-06-28 | 3074 | [Apple Redistribution into Boxes](solutions/3334_apple-redistribution-into-boxes/) | 🟢 Easy |
 | 2025-01-19 | 1941 | [Check if All Characters Have Equal Number of Occurrences](solutions/2053_check-if-all-characters-have-equal-number-of-occurrences/) | 🟢 Easy |
 | 2024-11-13 | 342 | [Power of Four](solutions/0342_power-of-four/) | 🟢 Easy |
 | 2024-11-07 | 338 | [Counting Bits](solutions/0338_counting-bits/) | 🟢 Easy |
 | — | 1 | [Two Sum](solutions/0001_two-sum/) | 🟢 Easy |
-| — | 4 | [Median of Two Sorted Arrays](solutions/0004_median-of-two-sorted-arrays/) | 🔴 Hard |
-| — | 5 | [Longest Palindromic Substring](solutions/0005_longest-palindromic-substring/) | 🟡 Medium |
-| — | 6 | [Zigzag Conversion](solutions/0006_zigzag-conversion/) | 🟡 Medium |
-| — | 7 | [Reverse Integer](solutions/0007_reverse-integer/) | 🟡 Medium |
 
 ---
 
@@ -66,10 +66,10 @@
 
 | Topic | Easy | Medium | Hard | Total |
 |:------|:----:|:------:|:----:|:-----:|
-| Array | 254 | 37 | 1 | **292** |
+| Array | 257 | 37 | 1 | **295** |
 | Backtracking | 1 | 8 | 0 | **9** |
 | Binary Search | 19 | 5 | 1 | **25** |
-| Bit Manipulation | 33 | 6 | 0 | **39** |
+| Bit Manipulation | 34 | 6 | 0 | **40** |
 | Brainteaser | 2 | 2 | 0 | **4** |
 | Bucket Sort | 0 | 2 | 0 | **2** |
 | Combinatorics | 2 | 1 | 0 | **3** |
@@ -84,11 +84,11 @@
 | Graph Theory | 1 | 0 | 0 | **1** |
 | Greedy | 22 | 5 | 0 | **27** |
 | Hash Function | 1 | 0 | 0 | **1** |
-| Hash Table | 120 | 20 | 0 | **140** |
+| Hash Table | 121 | 20 | 0 | **141** |
 | Heap (Priority Queue) | 7 | 3 | 0 | **10** |
 | Linked List | 1 | 0 | 0 | **1** |
 | Math | 115 | 18 | 0 | **133** |
-| Matrix | 17 | 4 | 0 | **21** |
+| Matrix | 18 | 4 | 0 | **22** |
 | Memoization | 3 | 0 | 0 | **3** |
 | Merge Sort | 0 | 1 | 0 | **1** |
 | Monotonic Stack | 2 | 0 | 0 | **2** |
@@ -101,11 +101,11 @@
 | Recursion | 6 | 1 | 0 | **7** |
 | Rolling Hash | 1 | 0 | 0 | **1** |
 | Segment Tree | 1 | 0 | 0 | **1** |
-| Simulation | 50 | 4 | 0 | **54** |
+| Simulation | 51 | 4 | 0 | **55** |
 | Sliding Window | 5 | 0 | 0 | **5** |
 | Sorting | 65 | 14 | 0 | **79** |
 | Stack | 13 | 4 | 0 | **17** |
-| String | 182 | 23 | 0 | **205** |
+| String | 182 | 24 | 0 | **206** |
 | String Matching | 8 | 0 | 0 | **8** |
 | Trie | 2 | 0 | 0 | **2** |
 | Two Pointers | 44 | 9 | 0 | **53** |
@@ -118,7 +118,7 @@
 ## 📋 All Solutions
 
 <details>
-<summary><b>View all 537 solutions →</b></summary>
+<summary><b>View all 541 solutions →</b></summary>
 
 | # | Title | Difficulty | Language | Topics |
 |:-:|:------|:----------:|:--------:|:-------|
@@ -586,6 +586,7 @@
 | 3042 | [Count Prefix and Suffix Pairs I](solutions/3309_count-prefix-and-suffix-pairs-i/) | 🟢 Easy | `Python` | Array, String, Trie… |
 | 3028 | [Ant on the Boundary](solutions/3311_ant-on-the-boundary/) | 🟢 Easy | `Python` | Array, Simulation, Prefix Sum |
 | 3019 | [Number of Changing Keys](solutions/3312_number-of-changing-keys/) | 🟢 Easy | `Python` | String |
+| 3038 | [Maximum Number of Operations With the Same Score I](solutions/3320_maximum-number-of-operations-with-the-same-score-i/) | 🟢 Easy | `Python` | Array, Simulation |
 | 3024 | [Type of Triangle](solutions/3321_type-of-triangle/) | 🟢 Easy | `Python` | Array, Math, Sorting |
 | 3046 | [Split the Array](solutions/3324_split-the-array/) | 🟢 Easy | `Python` | Array, Hash Table, Counting |
 | 3033 | [Modify the Matrix](solutions/3330_modify-the-matrix/) | 🟢 Easy | `Python` | Array, Matrix |
@@ -599,11 +600,14 @@
 | 3131 | [Find the Integer Added to Array I](solutions/3397_find-the-integer-added-to-array-i/) | 🟢 Easy | `Python` | Array |
 | 3120 | [Count the Number of Special Characters I](solutions/3408_count-the-number-of-special-characters-i/) | 🟢 Easy | `Python` | Hash Table, String |
 | 3146 | [Permutation Difference between Two Strings](solutions/3412_permutation-difference-between-two-strings/) | 🟢 Easy | `Python` | Hash Table, String |
+| 3142 | [Check if Grid Satisfies Conditions](solutions/3415_check-if-grid-satisfies-conditions/) | 🟢 Easy | `Python` | Array, Matrix |
 | 3184 | [Count Pairs That Form a Complete Day I](solutions/3421_count-pairs-that-form-a-complete-day-i/) | 🟢 Easy | `Python` | Array, Hash Table, Counting |
 | 3168 | [Minimum Number of Chairs in a Waiting Room](solutions/3426_minimum-number-of-chairs-in-a-waiting-room/) | 🟢 Easy | `Python` | String, Simulation |
+| 3158 | [Find the XOR of Numbers Which Appear Twice](solutions/3428_find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy | `Python` | Array, Hash Table, Bit Manipulation |
 | 3151 | [Special Array I](solutions/3429_special-array-i/) | 🟢 Easy | `Python` | Array |
 | 3162 | [Find the Number of Good Pairs I](solutions/3446_find-the-number-of-good-pairs-i/) | 🟢 Easy | `Python` | Array, Hash Table |
 | 3174 | [Clear Digits](solutions/3447_clear-digits/) | 🟢 Easy | `Python` | String, Stack, Simulation |
+| 3163 | [String Compression III](solutions/3451_string-compression-iii/) | 🟡 Medium | `Python` | String |
 | 3211 | [Generate Binary Strings Without Adjacent Zeros](solutions/3453_generate-binary-strings-without-adjacent-zeros/) | 🟡 Medium | `Python` | String, Backtracking, Bit Manipulation |
 | 3227 | [Vowels Game in a String](solutions/3462_vowels-game-in-a-string/) | 🟡 Medium | `Python` | Math, String, Brainteaser… |
 | 3210 | [Find the Encrypted String](solutions/3468_find-the-encrypted-string/) | 🟢 Easy | `Python` | String |

@@ -1,8 +1,6 @@
-class Solution(object):
-    def countBits(self, n):
+class Solution:
+    def countBits(self, n: int) -> List[int]:
         res = []
-        for i in range(0,n+1):
-            biNum = bin(i)[2:]
-            res.append(biNum.count("1"))
+        for i in range(n+1):
+            res.append((bin(i))[2:].count("1"))
         return res
-        

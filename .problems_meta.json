@@ -7169,6 +7169,22 @@
     "folder": "3312_number-of-changing-keys"
   },
   {
+    "num": 3320,
+    "fid": "3038",
+    "title": "Maximum Number of Operations With the Same Score I",
+    "slug": "maximum-number-of-operations-with-the-same-score-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3320_maximum-number-of-operations-with-the-same-score-i",
+    "solved_on": "2026-06-29"
+  },
+  {
     "num": 3321,
     "fid": "3024",
     "title": "Type of Triangle",
@@ -7364,6 +7380,22 @@
     "folder": "3412_permutation-difference-between-two-strings"
   },
   {
+    "num": 3415,
+    "fid": "3142",
+    "title": "Check if Grid Satisfies Conditions",
+    "slug": "check-if-grid-satisfies-conditions",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Matrix"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3415_check-if-grid-satisfies-conditions",
+    "solved_on": "2026-06-29"
+  },
+  {
     "num": 3421,
     "fid": "3184",
     "title": "Count Pairs That Form a Complete Day I",
@@ -7393,6 +7425,23 @@
       "py"
     ],
     "folder": "3426_minimum-number-of-chairs-in-a-waiting-room"
+  },
+  {
+    "num": 3428,
+    "fid": "3158",
+    "title": "Find the XOR of Numbers Which Appear Twice",
+    "slug": "find-the-xor-of-numbers-which-appear-twice",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Bit Manipulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3428_find-the-xor-of-numbers-which-appear-twice",
+    "solved_on": "2026-06-29"
   },
   {
     "num": 3429,
@@ -7438,6 +7487,21 @@
       "py"
     ],
     "folder": "3447_clear-digits"
+  },
+  {
+    "num": 3451,
+    "fid": "3163",
+    "title": "String Compression III",
+    "slug": "string-compression-iii",
+    "difficulty": "Medium",
+    "tags": [
+      "String"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3451_string-compression-iii",
+    "solved_on": "2026-06-29"
   },
   {
     "num": 3453,

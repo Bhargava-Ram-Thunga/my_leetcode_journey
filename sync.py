@@ -416,11 +416,11 @@ def generate_readme(problems: list[dict]):
 
     # Recent activity
     L += ["## 🕐 Recent Activity", "",
-          "| Date | # | Title | Difficulty |",
-          "|:----:|:-:|:------|:----------:|"]
+          "| # | Title | Difficulty |",
+          "|:-:|:------|:----------:|"]
     for p in recent:
         diff = f"{DIFF_EMOJI.get(p['difficulty'], '')} {p['difficulty']}"
-        L.append(f"| {p.get('solved_on', '—')} | {p['fid']} "
+        L.append(f"| {p['fid']} "
                  f"| [{p['title']}](solutions/{p['folder']}/) | {diff} |")
     L += ["", "---", ""]
 
