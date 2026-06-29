@@ -439,14 +439,14 @@ def generate_readme(problems: list[dict]):
     # Full solutions table
     L += ["## 📋 All Solutions", "", "<details>",
           f"<summary><b>View all {total} solutions →</b></summary>", "",
-          "| # | Title | Difficulty | Language | Solved | Topics |",
-          "|:-:|:------|:----------:|:--------:|:------:|:-------|"]
+          "| # | Title | Difficulty | Language | Topics |",
+          "|:-:|:------|:----------:|:--------:|:-------|"]
     for p in problems:
         diff  = f"{DIFF_EMOJI.get(p['difficulty'], '')} {p['difficulty']}"
         langs = " · ".join(f"`{LANG_LABEL.get(l, l)}`" for l in p.get("langs", []))
         tags  = ", ".join(p["tags"][:3]) + ("…" if len(p["tags"]) > 3 else "")
         L.append(f"| {p['fid']} | [{p['title']}](solutions/{p['folder']}/) "
-                 f"| {diff} | {langs} | {p.get('solved_on', '—')} | {tags} |")
+                 f"| {diff} | {langs} | {tags} |")
     L += ["", "</details>", "", "---", ""]
 
     # Footer
