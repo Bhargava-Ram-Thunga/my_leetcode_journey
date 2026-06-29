@@ -31,7 +31,8 @@ META_FILE  = REPO_DIR / ".problems_meta.json"
 SOL_DIR    = REPO_DIR / "solutions"
 
 USERNAME   = "bhargava-ram-thunga"    # display name / profile URL slug
-USER_SLUG  = "bhargava-ram-thunga"    # LeetCode userSlug (from JWT) — used to verify cookie ownership
+# Accept both the old slug (bh4gav) and new slug — LeetCode JWTs only update after re-login
+USER_SLUGS = {"bhargava-ram-thunga", "bh4gav"}
 GQL        = "https://leetcode.com/graphql"
 
 DIFF_EMOJI = {"Easy": "🟢", "Medium": "🟡", "Hard": "🔴"}
@@ -83,16 +84,19 @@ def decode_session_username(cookie: str) -> str | None:
 
 
 def verify_cookie_owner(cookie: str) -> bool:
-    """Return True only if the cookie belongs to USER_SLUG."""
+    """Return True only if the cookie belongs to our account (either slug)."""
     slug = decode_session_username(cookie)
     if slug is None:
         print("  ❌  Could not verify cookie owner — aborting for safety.")
         return False
-    if slug != USER_SLUG.lower():
-        print(f"  ❌  Cookie belongs to '{slug}', not '{USER_SLUG}'. Aborting!")
+    if slug not in USER_SLUGS:
+        print(f"  ❌  Cookie belongs to '{slug}', not our account. Aborting!")
         print("      (You may be logged into a different LeetCode account.)")
         return False
-    print(f"  ✅  Cookie verified: belongs to '{slug}'")
+    if slug == "bh4gav":
+        print(f"  ✅  Cookie verified (old slug '{slug}' — log out/in to refresh to new slug)")
+    else:
+        print(f"  ✅  Cookie verified: belongs to '{slug}'")
     return True
 
 

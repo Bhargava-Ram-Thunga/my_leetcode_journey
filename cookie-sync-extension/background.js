@@ -7,7 +7,8 @@
 
 const LEETCODE_HOST  = "leetcode.com";
 const SESSION_KEY    = "LEETCODE_SESSION";
-const OWNER_USERNAME = "bhargava-ram-thunga"; // ← YOUR LeetCode userSlug (from LEETCODE_SESSION JWT)
+// Accept both old slug (bh4gav) and new slug — JWTs only update after re-login
+const OWNER_SLUGS = new Set(["bhargava-ram-thunga", "bh4gav"]);
 
 // ─── Decode the LEETCODE_SESSION JWT and extract username ────────────────────
 function decodeSessionUsername(sessionCookieValue) {
@@ -37,9 +38,9 @@ function isOurAccount(sessionCookieValue) {
     console.warn("[LeetCode Sync] Could not determine account from cookie — ignoring.");
     return false;
   }
-  const isMatch = slug === OWNER_USERNAME.toLowerCase();
+  const isMatch = OWNER_SLUGS.has(slug);
   if (!isMatch) {
-    console.log(`[LeetCode Sync] 🚫 Cookie belongs to "${slug}", not "${OWNER_USERNAME}" — ignoring.`);
+    console.log(`[LeetCode Sync] 🚫 Cookie belongs to "${slug}", not our account — ignoring.`);
   }
   return isMatch;
 }
