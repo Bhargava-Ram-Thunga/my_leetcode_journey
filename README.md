@@ -44,18 +44,18 @@
 
 ## 🕐 Recent Activity
 
-| Date | # | Title | Difficulty |
-|:----:|:-:|:------|:----------:|
-| 2026-06-29 | 3038 | [Maximum Number of Operations With the Same Score I](solutions/3320_maximum-number-of-operations-with-the-same-score-i/) | 🟢 Easy |
-| 2026-06-29 | 3142 | [Check if Grid Satisfies Conditions](solutions/3415_check-if-grid-satisfies-conditions/) | 🟢 Easy |
-| 2026-06-29 | 3158 | [Find the XOR of Numbers Which Appear Twice](solutions/3428_find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy |
-| 2026-06-29 | 3163 | [String Compression III](solutions/3451_string-compression-iii/) | 🟡 Medium |
-| 2026-06-28 | 3046 | [Split the Array](solutions/3324_split-the-array/) | 🟢 Easy |
-| 2026-06-28 | 3074 | [Apple Redistribution into Boxes](solutions/3334_apple-redistribution-into-boxes/) | 🟢 Easy |
-| 2025-01-19 | 1941 | [Check if All Characters Have Equal Number of Occurrences](solutions/2053_check-if-all-characters-have-equal-number-of-occurrences/) | 🟢 Easy |
-| 2024-11-13 | 342 | [Power of Four](solutions/0342_power-of-four/) | 🟢 Easy |
-| 2024-11-07 | 338 | [Counting Bits](solutions/0338_counting-bits/) | 🟢 Easy |
-| — | 1 | [Two Sum](solutions/0001_two-sum/) | 🟢 Easy |
+| # | Title | Difficulty |
+|:-:|:------|:----------:|
+| 3038 | [Maximum Number of Operations With the Same Score I](solutions/3320_maximum-number-of-operations-with-the-same-score-i/) | 🟢 Easy |
+| 3142 | [Check if Grid Satisfies Conditions](solutions/3415_check-if-grid-satisfies-conditions/) | 🟢 Easy |
+| 3158 | [Find the XOR of Numbers Which Appear Twice](solutions/3428_find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy |
+| 3163 | [String Compression III](solutions/3451_string-compression-iii/) | 🟡 Medium |
+| 3046 | [Split the Array](solutions/3324_split-the-array/) | 🟢 Easy |
+| 3074 | [Apple Redistribution into Boxes](solutions/3334_apple-redistribution-into-boxes/) | 🟢 Easy |
+| 1941 | [Check if All Characters Have Equal Number of Occurrences](solutions/2053_check-if-all-characters-have-equal-number-of-occurrences/) | 🟢 Easy |
+| 342 | [Power of Four](solutions/0342_power-of-four/) | 🟢 Easy |
+| 338 | [Counting Bits](solutions/0338_counting-bits/) | 🟢 Easy |
+| 1 | [Two Sum](solutions/0001_two-sum/) | 🟢 Easy |
 
 ---
 
