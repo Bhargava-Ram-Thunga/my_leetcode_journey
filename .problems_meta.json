@@ -1228,7 +1228,8 @@
     "langs": [
       "py"
     ],
-    "folder": "0338_counting-bits"
+    "folder": "0338_counting-bits",
+    "solved_on": "2024-11-07"
   },
   {
     "num": 342,
@@ -1244,7 +1245,8 @@
     "langs": [
       "py"
     ],
-    "folder": "0342_power-of-four"
+    "folder": "0342_power-of-four",
+    "solved_on": "2024-11-13"
   },
   {
     "num": 344,
@@ -4843,7 +4845,8 @@
     "langs": [
       "py"
     ],
-    "folder": "2053_check-if-all-characters-have-equal-number-of-occurrences"
+    "folder": "2053_check-if-all-characters-have-equal-number-of-occurrences",
+    "solved_on": "2025-01-19"
   },
   {
     "num": 2058,
@@ -7182,6 +7185,23 @@
     "folder": "3321_type-of-triangle"
   },
   {
+    "num": 3324,
+    "fid": "3046",
+    "title": "Split the Array",
+    "slug": "split-the-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3324_split-the-array",
+    "solved_on": "2026-06-28"
+  },
+  {
     "num": 3330,
     "fid": "3033",
     "title": "Modify the Matrix",
@@ -7209,6 +7229,23 @@
       "py"
     ],
     "folder": "3331_minimum-operations-to-exceed-threshold-value-i"
+  },
+  {
+    "num": 3334,
+    "fid": "3074",
+    "title": "Apple Redistribution into Boxes",
+    "slug": "apple-redistribution-into-boxes",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3334_apple-redistribution-into-boxes",
+    "solved_on": "2026-06-28"
   },
   {
     "num": 3361,

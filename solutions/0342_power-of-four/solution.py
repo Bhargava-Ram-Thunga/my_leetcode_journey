@@ -1,11 +1,7 @@
-import math
-class Solution(object):
-    def isPowerOfFour(self, n):
+class Solution:
+    def isPowerOfFour(self, n: int) -> bool:
         if n<=0:
             return False
-        res = log(n,4)
-        if res.is_integer():
-            return True
-        else:
-            return False
-        
+        while(n%4==0):
+            n/=4
+        return n==1

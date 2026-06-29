@@ -2,13 +2,13 @@
 
 # 🚀 My LeetCode Journey
 
-*535 problems solved · auto-synced via GitHub Actions*
+*537 problems solved · auto-synced via GitHub Actions*
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-bhargava-ram-thunga-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/bhargava-ram-thunga/)
 [![Auto-Sync](https://img.shields.io/badge/auto--sync-every%2030min-4CAF50?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/Bhargava-Ram-Thunga/my_leetcode_journey/actions)
 
-![Solved](https://img.shields.io/badge/Solved-535-blueviolet?style=flat-square)
-![Easy](https://img.shields.io/badge/Easy-467-brightgreen?style=flat-square)
+![Solved](https://img.shields.io/badge/Solved-537-blueviolet?style=flat-square)
+![Easy](https://img.shields.io/badge/Easy-469-brightgreen?style=flat-square)
 ![Medium](https://img.shields.io/badge/Medium-67-orange?style=flat-square)
 ![Hard](https://img.shields.io/badge/Hard-1-red?style=flat-square)
 
@@ -27,18 +27,18 @@
 ## 📊 Progress
 
 ```
-  Easy     467  ███████████████████░░░   87.3%
+  Easy     469  ███████████████████░░░   87.3%
   Medium    67  ███░░░░░░░░░░░░░░░░░░░   12.5%
   Hard       1  ░░░░░░░░░░░░░░░░░░░░░░    0.2%
   ────────────────────────────────────────
-  Total    535  ██████████████████████  100.0%
+  Total    537  ██████████████████████  100.0%
 ```
 
 ---
 
 ## 🛠️ Languages Used
 
-![Python](https://img.shields.io/badge/Python-498-informational?style=flat-square) ![Java](https://img.shields.io/badge/Java-37-informational?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-14-informational?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-4-informational?style=flat-square)
+![Python](https://img.shields.io/badge/Python-500-informational?style=flat-square) ![Java](https://img.shields.io/badge/Java-37-informational?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-14-informational?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-4-informational?style=flat-square)
 
 ---
 
@@ -46,16 +46,16 @@
 
 | Date | # | Title | Difficulty |
 |:----:|:-:|:------|:----------:|
+| 2026-06-28 | 3046 | [Split the Array](solutions/3324_split-the-array/) | 🟢 Easy |
+| 2026-06-28 | 3074 | [Apple Redistribution into Boxes](solutions/3334_apple-redistribution-into-boxes/) | 🟢 Easy |
+| 2025-01-19 | 1941 | [Check if All Characters Have Equal Number of Occurrences](solutions/2053_check-if-all-characters-have-equal-number-of-occurrences/) | 🟢 Easy |
+| 2024-11-13 | 342 | [Power of Four](solutions/0342_power-of-four/) | 🟢 Easy |
+| 2024-11-07 | 338 | [Counting Bits](solutions/0338_counting-bits/) | 🟢 Easy |
 | — | 1 | [Two Sum](solutions/0001_two-sum/) | 🟢 Easy |
 | — | 4 | [Median of Two Sorted Arrays](solutions/0004_median-of-two-sorted-arrays/) | 🔴 Hard |
 | — | 5 | [Longest Palindromic Substring](solutions/0005_longest-palindromic-substring/) | 🟡 Medium |
 | — | 6 | [Zigzag Conversion](solutions/0006_zigzag-conversion/) | 🟡 Medium |
 | — | 7 | [Reverse Integer](solutions/0007_reverse-integer/) | 🟡 Medium |
-| — | 8 | [String to Integer (atoi)](solutions/0008_string-to-integer-atoi/) | 🟡 Medium |
-| — | 9 | [Palindrome Number](solutions/0009_palindrome-number/) | 🟢 Easy |
-| — | 11 | [Container With Most Water](solutions/0011_container-with-most-water/) | 🟡 Medium |
-| — | 12 | [Integer to Roman](solutions/0012_integer-to-roman/) | 🟡 Medium |
-| — | 13 | [Roman to Integer](solutions/0013_roman-to-integer/) | 🟢 Easy |
 
 ---
 
@@ -66,14 +66,14 @@
 
 | Topic | Easy | Medium | Hard | Total |
 |:------|:----:|:------:|:----:|:-----:|
-| Array | 252 | 37 | 1 | **290** |
+| Array | 254 | 37 | 1 | **292** |
 | Backtracking | 1 | 8 | 0 | **9** |
 | Binary Search | 19 | 5 | 1 | **25** |
 | Bit Manipulation | 33 | 6 | 0 | **39** |
 | Brainteaser | 2 | 2 | 0 | **4** |
 | Bucket Sort | 0 | 2 | 0 | **2** |
 | Combinatorics | 2 | 1 | 0 | **3** |
-| Counting | 43 | 5 | 0 | **48** |
+| Counting | 44 | 5 | 0 | **49** |
 | Counting Sort | 4 | 2 | 0 | **6** |
 | Design | 0 | 1 | 0 | **1** |
 | Divide and Conquer | 3 | 2 | 1 | **6** |
@@ -82,9 +82,9 @@
 | Game Theory | 2 | 2 | 0 | **4** |
 | Geometry | 4 | 0 | 0 | **4** |
 | Graph Theory | 1 | 0 | 0 | **1** |
-| Greedy | 21 | 5 | 0 | **26** |
+| Greedy | 22 | 5 | 0 | **27** |
 | Hash Function | 1 | 0 | 0 | **1** |
-| Hash Table | 119 | 20 | 0 | **139** |
+| Hash Table | 120 | 20 | 0 | **140** |
 | Heap (Priority Queue) | 7 | 3 | 0 | **10** |
 | Linked List | 1 | 0 | 0 | **1** |
 | Math | 115 | 18 | 0 | **133** |
@@ -103,7 +103,7 @@
 | Segment Tree | 1 | 0 | 0 | **1** |
 | Simulation | 50 | 4 | 0 | **54** |
 | Sliding Window | 5 | 0 | 0 | **5** |
-| Sorting | 64 | 14 | 0 | **78** |
+| Sorting | 65 | 14 | 0 | **79** |
 | Stack | 13 | 4 | 0 | **17** |
 | String | 182 | 23 | 0 | **205** |
 | String Matching | 8 | 0 | 0 | **8** |
@@ -118,7 +118,7 @@
 ## 📋 All Solutions
 
 <details>
-<summary><b>View all 535 solutions →</b></summary>
+<summary><b>View all 537 solutions →</b></summary>
 
 | # | Title | Difficulty | Language | Solved | Topics |
 |:-:|:------|:----------:|:--------:|:------:|:-------|
@@ -200,8 +200,8 @@
 | 299 | [Bulls and Cows](solutions/0299_bulls-and-cows/) | 🟡 Medium | `Python` | — | Hash Table, String, Counting |
 | 319 | [Bulb Switcher](solutions/0319_bulb-switcher/) | 🟡 Medium | `Python` | — | Math, Brainteaser |
 | 326 | [Power of Three](solutions/0326_power-of-three/) | 🟢 Easy | `Python` | — | Math, Recursion |
-| 338 | [Counting Bits](solutions/0338_counting-bits/) | 🟢 Easy | `Python` | — | Dynamic Programming, Bit Manipulation |
-| 342 | [Power of Four](solutions/0342_power-of-four/) | 🟢 Easy | `Python` | — | Math, Bit Manipulation, Recursion |
+| 338 | [Counting Bits](solutions/0338_counting-bits/) | 🟢 Easy | `Python` | 2024-11-07 | Dynamic Programming, Bit Manipulation |
+| 342 | [Power of Four](solutions/0342_power-of-four/) | 🟢 Easy | `Python` | 2024-11-13 | Math, Bit Manipulation, Recursion |
 | 344 | [Reverse String](solutions/0344_reverse-string/) | 🟢 Easy | `Python` | — | Two Pointers, String |
 | 345 | [Reverse Vowels of a String](solutions/0345_reverse-vowels-of-a-string/) | 🟢 Easy | `Python` | — | Two Pointers, String |
 | 349 | [Intersection of Two Arrays](solutions/0349_intersection-of-two-arrays/) | 🟢 Easy | `Java` | — | Array, Hash Table, Two Pointers… |
@@ -435,7 +435,7 @@
 | 1925 | [Count Square Sum Triples](solutions/2037_count-square-sum-triples/) | 🟢 Easy | `Python` | — | Math, Enumeration |
 | 1913 | [Maximum Product Difference Between Two Pairs](solutions/2042_maximum-product-difference-between-two-pairs/) | 🟢 Easy | `Python` | — | Array, Sorting |
 | 1920 | [Build Array from Permutation](solutions/2048_build-array-from-permutation/) | 🟢 Easy | `Python` | — | Array, Simulation |
-| 1941 | [Check if All Characters Have Equal Number of Occurrences](solutions/2053_check-if-all-characters-have-equal-number-of-occurrences/) | 🟢 Easy | `Python` | — | Hash Table, String, Counting |
+| 1941 | [Check if All Characters Have Equal Number of Occurrences](solutions/2053_check-if-all-characters-have-equal-number-of-occurrences/) | 🟢 Easy | `Python` | 2025-01-19 | Hash Table, String, Counting |
 | 1929 | [Concatenation of Array](solutions/2058_concatenation-of-array/) | 🟢 Easy | `Python` | — | Array, Simulation |
 | 1945 | [Sum of Digits of String After Convert](solutions/2076_sum-of-digits-of-string-after-convert/) | 🟢 Easy | `Python` | — | String, Simulation |
 | 1952 | [Three Divisors](solutions/2083_three-divisors/) | 🟢 Easy | `Python` | — | Math, Enumeration, Number Theory |
@@ -587,8 +587,10 @@
 | 3028 | [Ant on the Boundary](solutions/3311_ant-on-the-boundary/) | 🟢 Easy | `Python` | — | Array, Simulation, Prefix Sum |
 | 3019 | [Number of Changing Keys](solutions/3312_number-of-changing-keys/) | 🟢 Easy | `Python` | — | String |
 | 3024 | [Type of Triangle](solutions/3321_type-of-triangle/) | 🟢 Easy | `Python` | — | Array, Math, Sorting |
+| 3046 | [Split the Array](solutions/3324_split-the-array/) | 🟢 Easy | `Python` | 2026-06-28 | Array, Hash Table, Counting |
 | 3033 | [Modify the Matrix](solutions/3330_modify-the-matrix/) | 🟢 Easy | `Python` | — | Array, Matrix |
 | 3065 | [Minimum Operations to Exceed Threshold Value I](solutions/3331_minimum-operations-to-exceed-threshold-value-i/) | 🟢 Easy | `Python` | — | Array |
+| 3074 | [Apple Redistribution into Boxes](solutions/3334_apple-redistribution-into-boxes/) | 🟢 Easy | `Python` | 2026-06-28 | Array, Greedy, Sorting |
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](solutions/3361_latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | `Python` | — | String, Enumeration |
 | 3079 | [Find the Sum of Encrypted Integers](solutions/3367_find-the-sum-of-encrypted-integers/) | 🟢 Easy | `Python` | — | Array, Math |
 | 3099 | [Harshad Number](solutions/3371_harshad-number/) | 🟢 Easy | `Python` | — | Math |

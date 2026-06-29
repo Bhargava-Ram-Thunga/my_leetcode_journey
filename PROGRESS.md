@@ -5,23 +5,23 @@
 
 | | Count | % |
 |:---|------:|--:|
-| 🟢 Easy   | **467** | 87.3% |
+| 🟢 Easy   | **469** | 87.3% |
 | 🟡 Medium | **67** | 12.5% |
 | 🔴 Hard   | **1** | 0.2% |
-| **Total** | **535** | 100% |
+| **Total** | **537** | 100% |
 
 ## By Topic
 
 | Topic | Easy | Medium | Hard | Total |
 |:------|:----:|:------:|:----:|:-----:|
-| Array | 252 | 37 | 1 | **290** |
+| Array | 254 | 37 | 1 | **292** |
 | Backtracking | 1 | 8 | 0 | **9** |
 | Binary Search | 19 | 5 | 1 | **25** |
 | Bit Manipulation | 33 | 6 | 0 | **39** |
 | Brainteaser | 2 | 2 | 0 | **4** |
 | Bucket Sort | 0 | 2 | 0 | **2** |
 | Combinatorics | 2 | 1 | 0 | **3** |
-| Counting | 43 | 5 | 0 | **48** |
+| Counting | 44 | 5 | 0 | **49** |
 | Counting Sort | 4 | 2 | 0 | **6** |
 | Design | 0 | 1 | 0 | **1** |
 | Divide and Conquer | 3 | 2 | 1 | **6** |
@@ -30,9 +30,9 @@
 | Game Theory | 2 | 2 | 0 | **4** |
 | Geometry | 4 | 0 | 0 | **4** |
 | Graph Theory | 1 | 0 | 0 | **1** |
-| Greedy | 21 | 5 | 0 | **26** |
+| Greedy | 22 | 5 | 0 | **27** |
 | Hash Function | 1 | 0 | 0 | **1** |
-| Hash Table | 119 | 20 | 0 | **139** |
+| Hash Table | 120 | 20 | 0 | **140** |
 | Heap (Priority Queue) | 7 | 3 | 0 | **10** |
 | Linked List | 1 | 0 | 0 | **1** |
 | Math | 115 | 18 | 0 | **133** |
@@ -51,7 +51,7 @@
 | Segment Tree | 1 | 0 | 0 | **1** |
 | Simulation | 50 | 4 | 0 | **54** |
 | Sliding Window | 5 | 0 | 0 | **5** |
-| Sorting | 64 | 14 | 0 | **78** |
+| Sorting | 65 | 14 | 0 | **79** |
 | Stack | 13 | 4 | 0 | **17** |
 | String | 182 | 23 | 0 | **205** |
 | String Matching | 8 | 0 | 0 | **8** |

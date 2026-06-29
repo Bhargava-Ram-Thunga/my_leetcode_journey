@@ -1,7 +1,8 @@
-class Solution:
-    def areOccurrencesEqual(self, s: str) -> bool:
-        chars = set(s)
-        li = []
-        for char in chars:
-            li.append(s.count(char))
-        return len(set(li)) == 1
+class Solution(object):
+    def areOccurrencesEqual(self, s):
+        count = s.count(s[0])
+        for c in s:
+            if s.count(c)!=count:
+                return False
+        return True
+        
