@@ -2,10 +2,10 @@ name: 🔄 Sync LeetCode Submissions
 
 on:
   schedule:
-    # Runs every 12 hours
-    - cron: "0 */12 * * *"
+    # Every 30 minutes — picks up new accepted submissions quickly
+    - cron: "*/30 * * * *"
 
-  # Allow manual trigger from GitHub Actions UI
+  # Manual trigger from GitHub Actions UI
   workflow_dispatch:
 
 permissions:
@@ -15,7 +15,7 @@ jobs:
   sync:
     name: Export & Push New Solutions
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 20
 
     steps:
       - name: 📥 Checkout repo
@@ -37,6 +37,30 @@ jobs:
       - name: 📦 Install dependencies
         run: pip install leetcode-export requests
 
+      - name: 🔒 Verify cookie ownership
+        env:
+          LEETCODE_COOKIE: ${{ secrets.LEETCODE_COOKIE }}
+        run: |
+          python - << 'EOF'
+          import os, base64, json, sys
+          cookie = os.environ["LEETCODE_COOKIE"]
+          session_val = next(
+              (p.split("=",1)[1] for p in cookie.split(";") if p.strip().startswith("LEETCODE_SESSION=")), ""
+          )
+          if not session_val:
+              print("❌ No LEETCODE_SESSION found in cookie")
+              sys.exit(1)
+          parts = session_val.split(".")
+          pad = "=" * (4 - len(parts[1]) % 4) if len(parts[1]) % 4 else ""
+          payload = json.loads(base64.urlsafe_b64decode(parts[1] + pad))
+          slug = (payload.get("user_slug") or payload.get("username") or "").lower()
+          allowed = {"bhargava-ram-thunga", "bh4gav"}
+          if slug not in allowed:
+              print(f"❌ Cookie belongs to '{slug}' — NOT our account. Aborting!")
+              sys.exit(1)
+          print(f"✅ Cookie verified: '{slug}' is our account")
+          EOF
+
       - name: 🔄 Sync submissions
         env:
           LEETCODE_COOKIE: ${{ secrets.LEETCODE_COOKIE }}
@@ -44,5 +68,5 @@ jobs:
 
       - name: ✅ Show result
         run: |
-          echo "Sync complete. Git log (last 5):"
+          echo "=== Last 5 commits ==="
           git log --oneline -5
