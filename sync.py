@@ -374,13 +374,16 @@ def generate_readme(problems: list[dict]):
 
     recent = sorted(problems, key=solved_key, reverse=True)[:10]
 
+    # shields.io uses '-' as separator, so hyphens in text must be doubled
+    username_badge = USERNAME.replace("-", "--")
+
     L = []
 
     # Header
     L += ['<div align="center">', "",
           "# 🚀 My LeetCode Journey", "",
           f"*{total} problems solved · auto-synced via GitHub Actions*", "",
-          f"[![LeetCode](https://img.shields.io/badge/LeetCode-{USERNAME}-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/{USERNAME}/)",
+          f"[![LeetCode](https://img.shields.io/badge/LeetCode-{username_badge}-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/{USERNAME}/)",
           f"[![Auto-Sync](https://img.shields.io/badge/auto--sync-every%2030min-4CAF50?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/Bhargava-Ram-Thunga/my_leetcode_journey/actions)", "",
           f"![Solved](https://img.shields.io/badge/Solved-{total}-blueviolet?style=flat-square)",
           f"![Easy](https://img.shields.io/badge/Easy-{len(easy)}-brightgreen?style=flat-square)",

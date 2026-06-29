@@ -4,7 +4,7 @@
 
 *537 problems solved · auto-synced via GitHub Actions*
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-bhargava-ram-thunga-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/bhargava-ram-thunga/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-bhargava--ram--thunga-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/bhargava-ram-thunga/)
 [![Auto-Sync](https://img.shields.io/badge/auto--sync-every%2030min-4CAF50?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/Bhargava-Ram-Thunga/my_leetcode_journey/actions)
 
 ![Solved](https://img.shields.io/badge/Solved-537-blueviolet?style=flat-square)
