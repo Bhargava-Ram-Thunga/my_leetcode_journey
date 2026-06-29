@@ -2,7 +2,7 @@ name: 🔄 Sync LeetCode Submissions
 
 on:
   schedule:
-    # Runs every 12 hours (adjust as needed)
+    # Runs every 12 hours
     - cron: "0 */12 * * *"
 
   # Allow manual trigger from GitHub Actions UI
@@ -24,6 +24,11 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_PAT }}
 
+      - name: 🔧 Configure git identity
+        run: |
+          git config user.name "LeetCode Sync Bot"
+          git config user.email "sync-bot@users.noreply.github.com"
+
       - name: 🐍 Set up Python
         uses: actions/setup-python@v5
         with:
@@ -39,5 +44,5 @@ jobs:
 
       - name: ✅ Show result
         run: |
-          echo "Sync complete. Git log:"
+          echo "Sync complete. Git log (last 5):"
           git log --oneline -5
