@@ -2,13 +2,13 @@
 
 # 🚀 My LeetCode Journey
 
-*541 problems solved · auto-synced via GitHub Actions*
+*543 problems solved · auto-synced via GitHub Actions*
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-bhargava--ram--thunga-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/bhargava-ram-thunga/)
 [![Auto-Sync](https://img.shields.io/badge/auto--sync-every%2030min-4CAF50?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/Bhargava-Ram-Thunga/my_leetcode_journey/actions)
 
-![Solved](https://img.shields.io/badge/Solved-541-blueviolet?style=flat-square)
-![Easy](https://img.shields.io/badge/Easy-472-brightgreen?style=flat-square)
+![Solved](https://img.shields.io/badge/Solved-543-blueviolet?style=flat-square)
+![Easy](https://img.shields.io/badge/Easy-474-brightgreen?style=flat-square)
 ![Medium](https://img.shields.io/badge/Medium-68-orange?style=flat-square)
 ![Hard](https://img.shields.io/badge/Hard-1-red?style=flat-square)
 
@@ -27,18 +27,18 @@
 ## 📊 Progress
 
 ```
-  Easy     472  ███████████████████░░░   87.2%
-  Medium    68  ███░░░░░░░░░░░░░░░░░░░   12.6%
+  Easy     474  ███████████████████░░░   87.3%
+  Medium    68  ███░░░░░░░░░░░░░░░░░░░   12.5%
   Hard       1  ░░░░░░░░░░░░░░░░░░░░░░    0.2%
   ────────────────────────────────────────
-  Total    541  ██████████████████████  100.0%
+  Total    543  ██████████████████████  100.0%
 ```
 
 ---
 
 ## 🛠️ Languages Used
 
-![Python](https://img.shields.io/badge/Python-504-informational?style=flat-square) ![Java](https://img.shields.io/badge/Java-37-informational?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-14-informational?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-4-informational?style=flat-square)
+![Python](https://img.shields.io/badge/Python-506-informational?style=flat-square) ![Java](https://img.shields.io/badge/Java-37-informational?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-14-informational?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-4-informational?style=flat-square)
 
 ---
 
@@ -46,6 +46,8 @@
 
 | # | Title | Difficulty |
 |:-:|:------|:----------:|
+| 3069 | [Distribute Elements Into Two Arrays I](solutions/3347_distribute-elements-into-two-arrays-i/) | 🟢 Easy |
+| 3206 | [Alternating Groups I](solutions/3463_alternating-groups-i/) | 🟢 Easy |
 | 3038 | [Maximum Number of Operations With the Same Score I](solutions/3320_maximum-number-of-operations-with-the-same-score-i/) | 🟢 Easy |
 | 3142 | [Check if Grid Satisfies Conditions](solutions/3415_check-if-grid-satisfies-conditions/) | 🟢 Easy |
 | 3158 | [Find the XOR of Numbers Which Appear Twice](solutions/3428_find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy |
@@ -54,8 +56,6 @@
 | 3074 | [Apple Redistribution into Boxes](solutions/3334_apple-redistribution-into-boxes/) | 🟢 Easy |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](solutions/2053_check-if-all-characters-have-equal-number-of-occurrences/) | 🟢 Easy |
 | 342 | [Power of Four](solutions/0342_power-of-four/) | 🟢 Easy |
-| 338 | [Counting Bits](solutions/0338_counting-bits/) | 🟢 Easy |
-| 1 | [Two Sum](solutions/0001_two-sum/) | 🟢 Easy |
 
 ---
 
@@ -66,7 +66,7 @@
 
 | Topic | Easy | Medium | Hard | Total |
 |:------|:----:|:------:|:----:|:-----:|
-| Array | 257 | 37 | 1 | **295** |
+| Array | 259 | 37 | 1 | **297** |
 | Backtracking | 1 | 8 | 0 | **9** |
 | Binary Search | 19 | 5 | 1 | **25** |
 | Bit Manipulation | 34 | 6 | 0 | **40** |
@@ -101,8 +101,8 @@
 | Recursion | 6 | 1 | 0 | **7** |
 | Rolling Hash | 1 | 0 | 0 | **1** |
 | Segment Tree | 1 | 0 | 0 | **1** |
-| Simulation | 51 | 4 | 0 | **55** |
-| Sliding Window | 5 | 0 | 0 | **5** |
+| Simulation | 52 | 4 | 0 | **56** |
+| Sliding Window | 6 | 0 | 0 | **6** |
 | Sorting | 65 | 14 | 0 | **79** |
 | Stack | 13 | 4 | 0 | **17** |
 | String | 182 | 24 | 0 | **206** |
@@ -118,7 +118,7 @@
 ## 📋 All Solutions
 
 <details>
-<summary><b>View all 541 solutions →</b></summary>
+<summary><b>View all 543 solutions →</b></summary>
 
 | # | Title | Difficulty | Language | Topics |
 |:-:|:------|:----------:|:--------:|:-------|
@@ -592,6 +592,7 @@
 | 3033 | [Modify the Matrix](solutions/3330_modify-the-matrix/) | 🟢 Easy | `Python` | Array, Matrix |
 | 3065 | [Minimum Operations to Exceed Threshold Value I](solutions/3331_minimum-operations-to-exceed-threshold-value-i/) | 🟢 Easy | `Python` | Array |
 | 3074 | [Apple Redistribution into Boxes](solutions/3334_apple-redistribution-into-boxes/) | 🟢 Easy | `Python` | Array, Greedy, Sorting |
+| 3069 | [Distribute Elements Into Two Arrays I](solutions/3347_distribute-elements-into-two-arrays-i/) | 🟢 Easy | `Python` | Array, Simulation |
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](solutions/3361_latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | `Python` | String, Enumeration |
 | 3079 | [Find the Sum of Encrypted Integers](solutions/3367_find-the-sum-of-encrypted-integers/) | 🟢 Easy | `Python` | Array, Math |
 | 3099 | [Harshad Number](solutions/3371_harshad-number/) | 🟢 Easy | `Python` | Math |
@@ -610,6 +611,7 @@
 | 3163 | [String Compression III](solutions/3451_string-compression-iii/) | 🟡 Medium | `Python` | String |
 | 3211 | [Generate Binary Strings Without Adjacent Zeros](solutions/3453_generate-binary-strings-without-adjacent-zeros/) | 🟡 Medium | `Python` | String, Backtracking, Bit Manipulation |
 | 3227 | [Vowels Game in a String](solutions/3462_vowels-game-in-a-string/) | 🟡 Medium | `Python` | Math, String, Brainteaser… |
+| 3206 | [Alternating Groups I](solutions/3463_alternating-groups-i/) | 🟢 Easy | `Python` | Array, Sliding Window |
 | 3210 | [Find the Encrypted String](solutions/3468_find-the-encrypted-string/) | 🟢 Easy | `Python` | String |
 | 3194 | [Minimum Average of Smallest and Largest Elements](solutions/3471_minimum-average-of-smallest-and-largest-elements/) | 🟢 Easy | `Python` | Array, Two Pointers, Sorting |
 | 3190 | [Find Minimum Operations to Make All Elements Divisible by Three](solutions/3476_find-minimum-operations-to-make-all-elements-divisible-by-three/) | 🟢 Easy | `Python` | Array, Math |

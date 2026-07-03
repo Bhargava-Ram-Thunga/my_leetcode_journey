@@ -5,16 +5,16 @@
 
 | | Count | % |
 |:---|------:|--:|
-| 🟢 Easy   | **472** | 87.2% |
-| 🟡 Medium | **68** | 12.6% |
+| 🟢 Easy   | **474** | 87.3% |
+| 🟡 Medium | **68** | 12.5% |
 | 🔴 Hard   | **1** | 0.2% |
-| **Total** | **541** | 100% |
+| **Total** | **543** | 100% |
 
 ## By Topic
 
 | Topic | Easy | Medium | Hard | Total |
 |:------|:----:|:------:|:----:|:-----:|
-| Array | 257 | 37 | 1 | **295** |
+| Array | 259 | 37 | 1 | **297** |
 | Backtracking | 1 | 8 | 0 | **9** |
 | Binary Search | 19 | 5 | 1 | **25** |
 | Bit Manipulation | 34 | 6 | 0 | **40** |
@@ -49,8 +49,8 @@
 | Recursion | 6 | 1 | 0 | **7** |
 | Rolling Hash | 1 | 0 | 0 | **1** |
 | Segment Tree | 1 | 0 | 0 | **1** |
-| Simulation | 51 | 4 | 0 | **55** |
-| Sliding Window | 5 | 0 | 0 | **5** |
+| Simulation | 52 | 4 | 0 | **56** |
+| Sliding Window | 6 | 0 | 0 | **6** |
 | Sorting | 65 | 14 | 0 | **79** |
 | Stack | 13 | 4 | 0 | **17** |
 | String | 182 | 24 | 0 | **206** |

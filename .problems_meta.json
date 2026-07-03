@@ -7264,6 +7264,22 @@
     "solved_on": "2026-06-28"
   },
   {
+    "num": 3347,
+    "fid": "3069",
+    "title": "Distribute Elements Into Two Arrays I",
+    "slug": "distribute-elements-into-two-arrays-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3347_distribute-elements-into-two-arrays-i",
+    "solved_on": "2026-07-03"
+  },
+  {
     "num": 3361,
     "fid": "3114",
     "title": "Latest Time You Can Obtain After Replacing Characters",
@@ -7535,6 +7551,22 @@
       "py"
     ],
     "folder": "3462_vowels-game-in-a-string"
+  },
+  {
+    "num": 3463,
+    "fid": "3206",
+    "title": "Alternating Groups I",
+    "slug": "alternating-groups-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sliding Window"
+    ],
+    "langs": [
+      "py"
+    ],
+    "folder": "3463_alternating-groups-i",
+    "solved_on": "2026-07-03"
   },
   {
     "num": 3468,
