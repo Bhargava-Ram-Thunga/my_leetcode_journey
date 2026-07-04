@@ -498,6 +498,27 @@ def git(args: list[str]) -> str:
     return r.stdout.strip()
 
 
+def update_repo_description(total_count: int):
+    try:
+        url = git(["remote", "get-url", "origin"])
+        m = re.search(r"github\.com[:/]([^/]+/[^/]+?)(?:\.git)?$", url)
+        repo = m.group(1) if m else "Bhargava-Ram-Thunga/my_leetcode_journey"
+        
+        desc = f"🚀 My LeetCode journey — {total_count} solutions by @bhargava-ram-thunga with difficulty tags, topic index, and auto-sync via GitHub Actions"
+        homepage = "https://leetcode.com/bhargava-ram-thunga/"
+        
+        r = subprocess.run(
+            ["gh", "repo", "edit", repo, "--description", desc, "--homepage", homepage],
+            capture_output=True, text=True
+        )
+        if r.returncode == 0:
+            print(f"  🏷️  GitHub repo description updated to {total_count} solutions.")
+        else:
+            print(f"  ⚠  GitHub description update warning: {r.stderr.strip()}")
+    except Exception as e:
+        print(f"  ⚠  Could not update GitHub repo description: {e}")
+
+
 def commit_and_push(new_count: int, updated_count: int):
     if not git(["status", "--porcelain"]):
         print("  ℹ️   Nothing to commit.")
@@ -561,6 +582,7 @@ def main():
 
     if not args.dry_run:
         commit_and_push(len(new_problems), len(updated_problems))
+        update_repo_description(len(all_problems))
     else:
         print("  🔍  Dry run — skipping push")
 

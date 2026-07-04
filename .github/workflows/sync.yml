@@ -64,6 +64,7 @@ jobs:
       - name: 🔄 Sync submissions
         env:
           LEETCODE_COOKIE: ${{ secrets.LEETCODE_COOKIE }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: python sync.py
 
       - name: ✅ Show result

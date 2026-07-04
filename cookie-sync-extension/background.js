@@ -5,6 +5,8 @@
 // 🔒 ACCOUNT GUARD: Only acts when the cookie belongs to YOUR account.
 // If you log into someone else's LeetCode, this extension ignores it entirely.
 
+importScripts("seal.js");
+
 const LEETCODE_HOST  = "leetcode.com";
 const SESSION_KEY    = "LEETCODE_SESSION";
 // Accept both old slug (bh4gav) and new slug — JWTs only update after re-login
@@ -95,8 +97,7 @@ async function encryptSecret(base64PublicKey, secretValue) {
   const encKey = hsalsa20(sharedSecret, new Uint8Array(16));
 
   // Nonce for XSalsa20-Poly1305 = first 24 bytes of Blake2b(ephPk || recipientPk)
-  // Simplified: NaCl uses zeros as nonce in box_seal, key is derived via HSalsa20
-  const nonce = new Uint8Array(24); // zeros (as per NaCl sealed box spec)
+  const nonce = computeSealNonce(ephPkRaw, recipientPk);
 
   // Encrypt: XSalsa20-Poly1305(encKey, nonce, message)
   const message = new TextEncoder().encode(secretValue);
@@ -161,7 +162,8 @@ chrome.cookies.onChanged.addListener(async ({ cookie, removed }) => {
     return;
   }
 
-  console.log(`[LeetCode Sync] ✅ ${OWNER_USERNAME}'s session detected!`);
+  const slug = decodeSessionUsername(cookie.value);
+  console.log(`[LeetCode Sync] ✅ Session detected for user: ${slug}`);
 
     // Collect the full cookie string
     const fullCookie = await collectCookies();
